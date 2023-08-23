@@ -12,9 +12,7 @@ namespace TestSiteFrameworkWeb.Controllers
     {
         public ActionResult Index()
         {           
-            ViewBag.Title = "Home Page";            
             Static.Path = ViewBag.Path = Server.MapPath("~/bin/BBox");
-            //ViewBag.Path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             return View();
         }
     }
