@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D506FF7A-8FB5-45E4-ABE2-7C8451A00D35}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Veza.Calculation.TO.Main</RootNamespace>
+    <AssemblyName>Veza.Calculation.TO.Main</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InvoTechData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a85cd1f343405242, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\InvoTechData.dll</HintPath>
+    </Reference>
+    <Reference Include="Isc.Eng.B0003, Version=1.0.0.6, Culture=neutral, PublicKeyToken=a85cd1f343405242, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Isc.Eng.B0003.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Sqlite, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.Sqlite.Core.2.2.6\lib\netstandard2.0\Microsoft.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DotNet.PlatformAbstractions, Version=2.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DotNet.PlatformAbstractions.2.1.0\lib\net45\Microsoft.DotNet.PlatformAbstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Abstractions.2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Relational.2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Sqlite, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Sqlite.Core.2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Memory.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Binder.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.7.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.7.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyModel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyModel.2.1.0\lib\net451\Microsoft.Extensions.DependencyModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.5.0.0\lib\net46\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_green, Version=1.1.12.351, Culture=neutral, PublicKeyToken=a84b7dcfb1391f7f, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.12\lib\net45\SQLitePCLRaw.batteries_green.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_v2, Version=1.1.12.351, Culture=neutral, PublicKeyToken=8226ea5df37bcae9, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.12\lib\net45\SQLitePCLRaw.batteries_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.core, Version=1.1.12.351, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.core.1.1.12\lib\net45\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.provider.e_sqlite3, Version=1.1.12.351, Culture=neutral, PublicKeyToken=9c301db686d0bd12, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.provider.e_sqlite3.net45.1.1.12\lib\net45\SQLitePCLRaw.provider.e_sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.5.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.5.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Interactive.Async, Version=3.2.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Interactive.Async.3.2.0\lib\net46\System.Interactive.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.1\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLogic\Compressors\InvoTech\IInvoTech.cs" />
+    <Compile Include="BusinessLogic\Compressors\InvoTech\InvoTech.cs" />
+    <Compile Include="BusinessLogic\Compressors\Models\EquipmentMAKKLists.cs" />
+    <Compile Include="BusinessLogic\Compressors\Models\InputDataCompressors.cs" />
+    <Compile Include="BusinessLogic\Compressors\Models\MAKKCalcRC.cs" />
+    <Compile Include="BusinessLogic\Compressors\Models\MAKKRefrCapacitys.cs" />
+    <Compile Include="BusinessLogic\Compressors\Select 8\ISelect8.cs" />
+    <Compile Include="BusinessLogic\Compressors\Select 8\Select8.cs" />
+    <Compile Include="BusinessLogic\Fan\FanService.cs" />
+    <Compile Include="BusinessLogic\Fan\IExtFanService.cs" />
+    <Compile Include="BusinessLogic\Fan\Models\Fans.cs" />
+    <Compile Include="BusinessLogic\Fan\Models\FanT.cs" />
+    <Compile Include="BusinessLogic\Fan\Models\FanTypes.cs" />
+    <Compile Include="BusinessLogic\MAKK\DTO\ListMAKKParamsDTO.cs" />
+    <Compile Include="BusinessLogic\MAKK\DTO\MAKKParamsDTO.cs" />
+    <Compile Include="BusinessLogic\MAKK\IExtMAKKService.cs" />
+    <Compile Include="BusinessLogic\MAKK\MAKKService.cs" />
+    <Compile Include="BusinessLogic\MAKK\DTO\InputMAKKParamsDTO.cs" />
+    <Compile Include="BusinessLogic\MAKK\Mapper\InputMAKKParamsMapper.cs" />
+    <Compile Include="BusinessLogic\MAKK\Mapper\ListMAKKParamsMapper.cs" />
+    <Compile Include="BusinessLogic\MAKK\Mapper\MAKKParamsDTOMapper.cs" />
+    <Compile Include="BusinessLogic\MAKK\Models\InputMAKKParams.cs" />
+    <Compile Include="BusinessLogic\MAKK\Models\MAKKResults.cs" />
+    <Compile Include="BusinessLogic\MAKK\Models\SeriesMAKK.cs" />
+    <Compile Include="BusinessLogic\TO\CalculateBaseService.cs" />
+    <Compile Include="BusinessLogic\TO\Condensator\IExtInputDataCondensatorService.cs" />
+    <Compile Include="BusinessLogic\TO\Condensator\IInputDataCondensatorService.cs" />
+    <Compile Include="BusinessLogic\TO\Condensator\InputDataCondensatorService.cs" />
+    <Compile Include="BusinessLogic\TO\Cooler\IExtInputDataFluidCoolerService.cs" />
+    <Compile Include="BusinessLogic\TO\Cooler\IInputDataFluidCoolerService.cs" />
+    <Compile Include="BusinessLogic\TO\Cooler\InputDataFluidCoolerService.cs" />
+    <Compile Include="BusinessLogic\TO\Dll\Calculate.cs" />
+    <Compile Include="BusinessLogic\TO\Dll\ICalculate.cs" />
+    <Compile Include="BusinessLogic\TO\Evaporater\IExtInputDataEvaporaterService.cs" />
+    <Compile Include="BusinessLogic\TO\Evaporater\IInputDataEvaporaterService.cs" />
+    <Compile Include="BusinessLogic\TO\Evaporater\InputDataEvaporaterService.cs" />
+    <Compile Include="BusinessLogic\TO\Heater\IExtInputDataFluidHeaterService.cs" />
+    <Compile Include="BusinessLogic\TO\Heater\IInputDataFluidHeaterService.cs" />
+    <Compile Include="BusinessLogic\TO\Heater\InputDataFluidHeaterService.cs" />
+    <Compile Include="BusinessLogic\TO\ICalculateBaseService.cs" />
+    <Compile Include="BusinessLogic\TO\IExtInputDataService.cs" />
+    <Compile Include="BusinessLogic\TO\Models\DBLine.cs" />
+    <Compile Include="BusinessLogic\TO\Models\DBLineOut.cs" />
+    <Compile Include="BusinessLogic\TO\Models\OutView.cs" />
+    <Compile Include="BusinessLogic\TO\Models\OutViewLines.cs" />
+    <Compile Include="BusinessLogic\TO\Models\ParamsCalculationLibrary.cs" />
+    <Compile Include="BusinessLogic\TO\SteamHeater\IExtInputDataSteamHeaterService.cs" />
+    <Compile Include="BusinessLogic\TO\SteamHeater\IInputDataSteamHeaterService.cs" />
+    <Compile Include="BusinessLogic\TO\SteamHeater\InputDataSteamHeaterService.cs" />
+    <Compile Include="BusinessLogic\TO\Table\ITableDataService.cs" />
+    <Compile Include="BusinessLogic\TO\Table\TableDataService.cs" />
+    <Compile Include="DataBase\Compressor.cs" />
+    <Compile Include="DataBase\Fan.cs" />
+    <Compile Include="DataBase\FanSelection.cs" />
+    <Compile Include="DataBase\Interafces\ICompressor.cs" />
+    <Compile Include="DataBase\ApplicationContext.cs" />
+    <Compile Include="DataBase\Interafces\IFan.cs" />
+    <Compile Include="DataBase\Interafces\IFanSelection.cs" />
+    <Compile Include="DataBase\Interafces\IMakk.cs" />
+    <Compile Include="DataBase\Makk.cs" />
+    <Compile Include="DataBase\Models\DTO\FanDTO.cs" />
+    <Compile Include="DataBase\Models\DTO\FanOutDTO.cs" />
+    <Compile Include="DataBase\Models\DTO\FanPointsDTO.cs" />
+    <Compile Include="DataBase\Models\DTO\FanStepsDTO.cs" />
+    <Compile Include="DataBase\Models\EquipmentMAKK\EquipmentMAKKDB.cs" />
+    <Compile Include="DataBase\Models\EquipmentMAKK\HeatExchangerDB.cs" />
+    <Compile Include="DataBase\Models\EquipmentMAKK\MAKKAccessoriesDB.cs" />
+    <Compile Include="DataBase\Models\EquipmentMAKK\MAKKOptionDB.cs" />
+    <Compile Include="DataBase\Models\ErrorEdit.cs" />
+    <Compile Include="DataBase\Models\DTO\EquipmentMAKKDTO.cs" />
+    <Compile Include="DataBase\Models\EquipmentMAKK\CompressorDB.cs" />
+    <Compile Include="DataBase\Models\Fan\FanBuilderDB.cs" />
+    <Compile Include="DataBase\Models\Fan\FanDirectionDB.cs" />
+    <Compile Include="DataBase\Models\Fan\FanMaterialsDB.cs" />
+    <Compile Include="DataBase\Models\Fan\FanModelsDB.cs" />
+    <Compile Include="DataBase\Models\Fan\FanMountDB.cs" />
+    <Compile Include="DataBase\Models\Fan\FanPointsDB.cs" />
+    <Compile Include="DataBase\Models\Fan\FanSeriesDB.cs" />
+    <Compile Include="DataBase\Models\Fan\FanStepEffPowerDB.cs" />
+    <Compile Include="DataBase\Models\Fan\FanTipologyDB.cs" />
+    <Compile Include="DataBase\Models\Fan\SelectedFans.cs" />
+    <Compile Include="DataBase\Models\Mappers\MapperFanDTOToFanOutDTO.cs" />
+    <Compile Include="DataBase\Models\Mappers\MapperFanModelsToFanDTO.cs" />
+    <Compile Include="DataBase\Models\Mappers\MapperFanModelsToFanOutDTO.cs" />
+    <Compile Include="Exceptions\TempToPresException.cs" />
+    <Compile Include="Exceptions\ValidErrorException.cs" />
+    <Compile Include="ExternalServices\Condensator\CalcDirectCXService.cs" />
+    <Compile Include="ExternalServices\Condensator\CalcReverseCXService.cs" />
+    <Compile Include="ExternalServices\Condensator\GetPropertiesCXService.cs" />
+    <Compile Include="ExternalServices\Condensator\ICalcDirectCXService.cs" />
+    <Compile Include="ExternalServices\Condensator\ICalcReverseCXService.cs" />
+    <Compile Include="ExternalServices\Condensator\IGetPropertiesCXService.cs" />
+    <Compile Include="ExternalServices\Condensator\ISetGeometryCXService.cs" />
+    <Compile Include="ExternalServices\Condensator\SetGeometryCXService.cs" />
+    <Compile Include="ExternalServices\Cooler\CalcDirectCWService.cs" />
+    <Compile Include="ExternalServices\Cooler\CalcReverseCWService.cs" />
+    <Compile Include="ExternalServices\Cooler\GetPropertiesCWService.cs" />
+    <Compile Include="ExternalServices\Cooler\ICalcDirectCWService.cs" />
+    <Compile Include="ExternalServices\Cooler\ICalcReverseCWService.cs" />
+    <Compile Include="ExternalServices\Cooler\IGetPropertiesCWService.cs" />
+    <Compile Include="ExternalServices\Cooler\ISetGeometryCWService.cs" />
+    <Compile Include="ExternalServices\Cooler\SetGeometryCWService.cs" />
+    <Compile Include="ExternalServices\Evaporater\CalcDirectDXService.cs" />
+    <Compile Include="ExternalServices\Evaporater\CalcReverseDXService.cs" />
+    <Compile Include="ExternalServices\Evaporater\GetPropertiesDXService.cs" />
+    <Compile Include="ExternalServices\Evaporater\ICalcDirectDXService.cs" />
+    <Compile Include="ExternalServices\Evaporater\ICalcReverseDXService.cs" />
+    <Compile Include="ExternalServices\Evaporater\IGetPropertiesDXService.cs" />
+    <Compile Include="ExternalServices\Evaporater\ISetGeometryDXService.cs" />
+    <Compile Include="ExternalServices\Evaporater\SetGeometryDXService.cs" />
+    <Compile Include="ExternalServices\Fans\GetFanToEditService.cs" />
+    <Compile Include="ExternalServices\Fans\GetListTypesFanService.cs" />
+    <Compile Include="ExternalServices\Fans\GetPointsToFanService.cs" />
+    <Compile Include="ExternalServices\Fans\GetStepsToFanService.cs" />
+    <Compile Include="ExternalServices\Fans\IGetFanToEditService.cs" />
+    <Compile Include="ExternalServices\Fans\IGetListTypesFanService.cs" />
+    <Compile Include="ExternalServices\Fans\IGetPointsToFanService.cs" />
+    <Compile Include="ExternalServices\Fans\IGetStepsToFanService.cs" />
+    <Compile Include="ExternalServices\Fans\ISetFanToEditService.cs" />
+    <Compile Include="ExternalServices\Fans\ISetPointsToFanService.cs" />
+    <Compile Include="ExternalServices\Fans\ISetStepsToFanService.cs" />
+    <Compile Include="ExternalServices\Fans\SetFanToEditService.cs" />
+    <Compile Include="ExternalServices\Fans\SetPointsToFanService.cs" />
+    <Compile Include="ExternalServices\Fans\SetStepsToFanService.cs" />
+    <Compile Include="ExternalServices\Heater\CalcDirectHWService.cs" />
+    <Compile Include="ExternalServices\Heater\CalcReverseHWService.cs" />
+    <Compile Include="ExternalServices\Heater\GetPropertiesHWService.cs" />
+    <Compile Include="ExternalServices\Heater\ICalcDirectHWService.cs" />
+    <Compile Include="ExternalServices\Heater\ICalcReverseHWService.cs" />
+    <Compile Include="ExternalServices\Heater\IGetPropertiesHWService.cs" />
+    <Compile Include="ExternalServices\Heater\ISetGeometryHWService.cs" />
+    <Compile Include="ExternalServices\Heater\SetGeometryHWService.cs" />
+    <Compile Include="ExternalServices\MAKK\CalcMAKKService.cs" />
+    <Compile Include="ExternalServices\MAKK\GetInputMAKKParamsService.cs" />
+    <Compile Include="ExternalServices\MAKK\GetResultCalcMAKKService.cs" />
+    <Compile Include="ExternalServices\MAKK\ICalcMAKKService.cs" />
+    <Compile Include="ExternalServices\MAKK\IGetInputMAKKParamsService.cs" />
+    <Compile Include="ExternalServices\MAKK\IGetResultCalcMAKKService.cs" />
+    <Compile Include="ExternalServices\MAKK\ISetInputMAKKParamsService.cs" />
+    <Compile Include="ExternalServices\MAKK\SetInputMAKKParamsService.cs" />
+    <Compile Include="ExternalServices\SteamHeater\CalcDirectSTService.cs" />
+    <Compile Include="ExternalServices\SteamHeater\CalcReverseSTService.cs" />
+    <Compile Include="ExternalServices\SteamHeater\GetPropertiesSTService.cs" />
+    <Compile Include="ExternalServices\SteamHeater\ICalcDirectSTService.cs" />
+    <Compile Include="ExternalServices\SteamHeater\ICalcReverseSTService.cs" />
+    <Compile Include="ExternalServices\SteamHeater\IGetPropertiesSTService.cs" />
+    <Compile Include="ExternalServices\SteamHeater\ISetGeometrySTService.cs" />
+    <Compile Include="ExternalServices\SteamHeater\SetGeometrySTService.cs" />
+    <Compile Include="Interfaces\IFinThk.cs" />
+    <Compile Include="Interfaces\IInputData.cs" />
+    <Compile Include="Interfaces\IInputDataService.cs" />
+    <Compile Include="Interfaces\ILogs.cs" />
+    <Compile Include="Interfaces\IMessage.cs" />
+    <Compile Include="Interfaces\ISwitchLanguageService.cs" />
+    <Compile Include="Interfaces\ITableDataService.cs" />
+    <Compile Include="Interfaces\Mappers\ICondensatorMapper.cs" />
+    <Compile Include="Interfaces\Mappers\IEvaporaterMapper.cs" />
+    <Compile Include="Interfaces\Mappers\IFluidCoolerMapper.cs" />
+    <Compile Include="Interfaces\Mappers\IFluidHeaterMapper.cs" />
+    <Compile Include="Interfaces\Mappers\ISteamHeaterMapper.cs" />
+    <Compile Include="Interfaces\Refrigerants\IConvertTempToPres.cs" />
+    <Compile Include="Interfaces\Refrigerants\IRefrigerant.cs" />
+    <Compile Include="Interfaces\Refrigerants\IRefrigerantFactory.cs" />
+    <Compile Include="Mappers\CondensatorMapper.cs" />
+    <Compile Include="Mappers\EvaporaterMapper.cs" />
+    <Compile Include="Mappers\FluidCoolerMapper.cs" />
+    <Compile Include="Mappers\FluidHeaterMapper.cs" />
+    <Compile Include="Mappers\SteamHeaterMapper.cs" />
+    <Compile Include="Messages\EquipmentMAKKListMessage.cs" />
+    <Compile Include="Messages\EquipmentMAKKMessage.cs" />
+    <Compile Include="Messages\FanMessage.cs" />
+    <Compile Include="Messages\MAKKMessage.cs" />
+    <Compile Include="Messages\OutMessage.cs" />
+    <Compile Include="Messages\SaveCodesMessage.cs" />
+    <Compile Include="Messages\SwitchModeMessage.cs" />
+    <Compile Include="Messages\TextMessage.cs" />
+    <Compile Include="Models\CalcMode.cs" />
+    <Compile Include="Models\ChangesGeometryParamsTO.cs" />
+    <Compile Include="Models\CurrentPage.cs" />
+    <Compile Include="Models\Fan\FanParams.cs" />
+    <Compile Include="Models\Fan\Tipology.cs" />
+    <Compile Include="Models\FinThk.cs" />
+    <Compile Include="Models\InputData.cs" />
+    <Compile Include="Models\InputDataDTO\GetDataCondensatorDTO.cs" />
+    <Compile Include="Models\InputDataDTO\GetDataEvaporaterDTO.cs" />
+    <Compile Include="Models\InputDataDTO\GetDataFluidHeaterCoolerDTO.cs" />
+    <Compile Include="Models\InputDataDTO\GetDataSteamHeaterDTO.cs" />
+    <Compile Include="Models\InputDataDTO\InputDataCondensatorDTO.cs" />
+    <Compile Include="Models\InputDataDTO\InputDataEvaporaterDTO.cs" />
+    <Compile Include="Models\InputDataDTO\InputDataFluidHeaterCoolerDTO.cs" />
+    <Compile Include="Models\InputDataDTO\InputDataSteamHeaterDTO.cs" />
+    <Compile Include="Models\InputDataDTO\OutputDataCondensatorDTO.cs" />
+    <Compile Include="Models\InputDataDTO\OutputDataEvaporaterDTO.cs" />
+    <Compile Include="Models\InputDataDTO\OutputDataFluidHeaterCoolerDTO.cs" />
+    <Compile Include="Models\InputDataDTO\OutputDataSteamHeaterDTO.cs" />
+    <Compile Include="Models\MAKK\InputDataMAKK.cs" />
+    <Compile Include="Models\CalcEnum.cs" />
+    <Compile Include="Models\MAKK\MAKKItem.cs" />
+    <Compile Include="Models\MAKK\MAKKOptions.cs" />
+    <Compile Include="Models\MAKK\MAKKParams.cs" />
+    <Compile Include="Models\MAKK\MAKKTechnicalData.cs" />
+    <Compile Include="Models\MAKK\OptionOrAddAccess.cs" />
+    <Compile Include="Models\MAKK\OrderParams.cs" />
+    <Compile Include="Models\MAKK\OutputDataMAKK.cs" />
+    <Compile Include="Models\MAKK\SearchCompressors.cs" />
+    <Compile Include="Models\MAKK\SearchEvaporator.cs" />
+    <Compile Include="Models\MAKK\SelectCompressors.cs" />
+    <Compile Include="Models\MAKK\Series.cs" />
+    <Compile Include="Models\OutParams.cs" />
+    <Compile Include="Models\PrintData.cs" />
+    <Compile Include="Models\PrintDataSave.cs" />
+    <Compile Include="Models\PrintEnum.cs" />
+    <Compile Include="Models\ProgramParams.cs" />
+    <Compile Include="Models\SaveCodes.cs" />
+    <Compile Include="Models\SavedProperties.cs" />
+    <Compile Include="Models\StaticData.cs" />
+    <Compile Include="Models\TableData.cs" />
+    <Compile Include="Models\Visibility.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Resources.en.Designer.cs" />
+    <Compile Include="Properties\Resources.ru-RU.Designer.cs" />
+    <Compile Include="Services\GlobalizationService.cs" />
+    <Compile Include="Services\InputDataService.cs" />
+    <Compile Include="Services\Logs.cs" />
+    <Compile Include="Services\MessageBus.cs" />
+    <Compile Include="Services\Refrigerants\ConvertTempToPres.cs" />
+    <Compile Include="Services\Refrigerants\R134a\RefrigerantR134a.cs" />
+    <Compile Include="Services\Refrigerants\R22\RefrigerantFactoryR22.cs" />
+    <Compile Include="Services\Refrigerants\R134a\RefrigerantFactoryR134a.cs" />
+    <Compile Include="Services\Refrigerants\R22\RefrigerantR22.cs" />
+    <Compile Include="Services\Refrigerants\R404A\RefrigerantFactoryR404A.cs" />
+    <Compile Include="Services\Refrigerants\R404A\RefrigerantR404A.cs" />
+    <Compile Include="Services\Refrigerants\R407C\RefrigerantFactoryR407C.cs" />
+    <Compile Include="Services\Refrigerants\R407C\RefrigerantR407C.cs" />
+    <Compile Include="Services\Refrigerants\R410A\RefrigerantFactoryR410A.cs" />
+    <Compile Include="Services\Refrigerants\R410A\RefrigerantR410A.cs" />
+    <Compile Include="Services\Refrigerants\R410A\RefUtil\RefrigerantR410A.cs" />
+    <Compile Include="Services\Refrigerants\R513A\RefrigerantFactoryR513A.cs" />
+    <Compile Include="Services\Refrigerants\R513A\RefrigerantR513A.cs" />
+    <Compile Include="Services\Subscriber.cs" />
+    <Compile Include="Services\SwitchLanguageService.cs" />
+    <Compile Include="ViewModels\Frames\AdvanceParamsViewModel.cs" />
+    <Compile Include="ViewModelLocator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="InvoTechData.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InvoTech\Chinese.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InvoTech\InvoTech.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InvoTech\InvoTechData.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InvoTech\System.Data.SQLite.DLL">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Isc.Eng.B0003.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Isc.Eng.B0003.Solk.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Isc.Eng.B0003.Therm.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MAKK\Scheme MAKK_en.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MAKK\Scheme MAKK_ru.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Select8\DataManager.dll" />
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Select8\Data\CUSTOMER\Aserep32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\CO2_LIB32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Select8\FileReader.dll" />
+    <Content Include="Select8\Omu.ValueInjecter.dll" />
+    <Content Include="Select8\SelectBusiness.dll" />
+    <Content Include="Select8\SelectConfiguration.dll" />
+    <Content Include="Select8\SelectDesktop.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BBox\CoolProp_X64.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\CoolProp_x86.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\DFORRT.DLL">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\Isc.Eng.B0003.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\Isc.Eng.B0003.Solk.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\Isc.Eng.B0003.Solk32.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\Isc.Eng.B0003.Therm.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\isc.Eng.Vez.core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\isc.Eng.Vez.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\LibNH3.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\REF_CALC32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\SpreadsheetGear2017.Core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\SpreadsheetGear2017.Drawing.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\VAR_LIB32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\Vez_DefaultCW.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\Vez_DefaultCX.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\Vez_DefaultDX.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\Vez_DefaultHW.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\Vez_DefaultST.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="InvoTech\DB\InvoDB">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\access5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\alcoadafit.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\alcokorr5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\alcomod.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\alcotech.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\bomdata.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\comp5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\comptech5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\cond5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\condtech5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\crate5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\dayNight.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\draw6.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\envdata5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\envtype5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\GeoIP.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\header25.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\header5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\hpump7.dwm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\motcod5.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\profile.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R1234yf.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R1234ze%28E%29.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R124.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R1270.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R134A.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R22.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R23.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R290.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R32.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R404A.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R407A.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R407C.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R407F.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R410A.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R448A.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R449A.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R450A.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R452A.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R452B.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R454A.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R454B.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R454C.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R455A.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R507.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R507A.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R513A.ref">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\R744.REF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\rpmdata.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\Data\CUSTOMER\soundata.DWM">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Select8\SelectDesktop.dll.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BBox\Isc.Eng.B0003.Solk.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\Isc.Eng.B0003.Solk32.exe.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\VezBase.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="BBox\VezPR.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.en.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Properties\Resources.ru-RU.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.linux.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.linux.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.linux.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.linux.targets'))" />
+    <Error Condition="!Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.osx.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.osx.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCLRaw.lib.e_sqlite3.osx.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.osx.targets'))" />
+    <Error Condition="!Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.v110_xp.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.v110_xp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCLRaw.lib.e_sqlite3.v110_xp.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.v110_xp.targets'))" />
+  </Target>
+  <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.osx.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.osx.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.osx.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.osx.targets')" />
+  <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.v110_xp.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.v110_xp.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.v110_xp.1.1.12\build\net35\SQLitePCLRaw.lib.e_sqlite3.v110_xp.targets')" />
+</Project>

@@ -1,0 +1,3314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="0.10mmAl" xml:space="preserve">
+    <value>0.10 mm Aluminum</value>
+  </data>
+  <data name="0.12mmAl" xml:space="preserve">
+    <value>0.12 mm Aluminum</value>
+  </data>
+  <data name="0.15mmAl" xml:space="preserve">
+    <value>0.15 mm Aluminum</value>
+  </data>
+  <data name="0.15mmEpoxy" xml:space="preserve">
+    <value>0.15 mm Aluminum Epoxy</value>
+  </data>
+  <data name="0.16mmCu" xml:space="preserve">
+    <value>0.16 mm Copper</value>
+  </data>
+  <data name="0.18mmAl" xml:space="preserve">
+    <value>0.18 mm Aluminum</value>
+  </data>
+  <data name="0.20mm304" xml:space="preserve">
+    <value>0.20 mm stain.steel 304</value>
+  </data>
+  <data name="0.20mm316" xml:space="preserve">
+    <value>0.20 mm stain.steel 316</value>
+  </data>
+  <data name="0.20mmAl" xml:space="preserve">
+    <value>0.20 mm Aluminum</value>
+  </data>
+  <data name="0.20mmEpoxy" xml:space="preserve">
+    <value>0.20 mm Aluminum Epoxy</value>
+  </data>
+  <data name="0.25mmAl" xml:space="preserve">
+    <value>0.25 mm Aluminum</value>
+  </data>
+  <data name="1.8mm" xml:space="preserve">
+    <value>1.8 mm</value>
+  </data>
+  <data name="12.0mm" xml:space="preserve">
+    <value>12.0 mm</value>
+  </data>
+  <data name="12MineralOil" xml:space="preserve">
+    <value>1-2% Mineral Oil</value>
+  </data>
+  <data name="12SyntheticOil" xml:space="preserve">
+    <value>1-2% Synthetic Oil</value>
+  </data>
+  <data name="2.00mmCu" xml:space="preserve">
+    <value>2.00 mm Copper</value>
+  </data>
+  <data name="2.00mmSteel" xml:space="preserve">
+    <value>2.00 mm zinced steel</value>
+  </data>
+  <data name="2.0mm" xml:space="preserve">
+    <value>2.0 mm</value>
+  </data>
+  <data name="2.2mm" xml:space="preserve">
+    <value>2.2 mm</value>
+  </data>
+  <data name="2.5mm" xml:space="preserve">
+    <value>2.5 mm</value>
+  </data>
+  <data name="23MineralOil" xml:space="preserve">
+    <value>2-3% Mineral Oil</value>
+  </data>
+  <data name="23SyntheticOil" xml:space="preserve">
+    <value>2-3% Synthetic Oil</value>
+  </data>
+  <data name="2507" xml:space="preserve">
+    <value>2507</value>
+  </data>
+  <data name="2510" xml:space="preserve">
+    <value>2510</value>
+  </data>
+  <data name="3.00mm304" xml:space="preserve">
+    <value>3.00 mm stain.steel 304</value>
+  </data>
+  <data name="3.00mm316" xml:space="preserve">
+    <value>3.00 mm stain.steel 316</value>
+  </data>
+  <data name="3.00mmCu" xml:space="preserve">
+    <value>3.00 mm Copper</value>
+  </data>
+  <data name="3.00mmSteel" xml:space="preserve">
+    <value>3.00 mm zinced steel</value>
+  </data>
+  <data name="3.0mm" xml:space="preserve">
+    <value>3.0 mm</value>
+  </data>
+  <data name="3.5mm" xml:space="preserve">
+    <value>3.5 mm</value>
+  </data>
+  <data name="3512" xml:space="preserve">
+    <value>3512</value>
+  </data>
+  <data name="4.0mm" xml:space="preserve">
+    <value>4.0 mm</value>
+  </data>
+  <data name="4.5mm" xml:space="preserve">
+    <value>4.5 mm</value>
+  </data>
+  <data name="4816" xml:space="preserve">
+    <value>4816</value>
+  </data>
+  <data name="5.0mm" xml:space="preserve">
+    <value>5.0 mm</value>
+  </data>
+  <data name="5012" xml:space="preserve">
+    <value>5012</value>
+  </data>
+  <data name="7.0mm" xml:space="preserve">
+    <value>7.0 mm</value>
+  </data>
+  <data name="AbsCondensingPressure" xml:space="preserve">
+    <value>Abs. condensing pressure</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="AdvPropHide" xml:space="preserve">
+    <value>Hide additional properties</value>
+  </data>
+  <data name="AdvPropShow" xml:space="preserve">
+    <value>Show additional properties</value>
+  </data>
+  <data name="AirAir" xml:space="preserve">
+    <value>Air</value>
+  </data>
+  <data name="AirFlowDirection" xml:space="preserve">
+    <value>Air flow direction</value>
+  </data>
+  <data name="AirFlowDirectionLeft" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="AirFlowDirectionRight" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="AirNitrogen" xml:space="preserve">
+    <value>Nitrogen</value>
+  </data>
+  <data name="AirTypeA" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="AirTypeE" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="AirTypeN" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="AirTypeS" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="AlSmall" xml:space="preserve">
+    <value>aluminum</value>
+  </data>
+  <data name="AutomaticFinPitch" xml:space="preserve">
+    <value>Automatic fin pitch</value>
+  </data>
+  <data name="bAddRow" xml:space="preserve">
+    <value>Add row</value>
+  </data>
+  <data name="bAdmin" xml:space="preserve">
+    <value>ADMIN</value>
+  </data>
+  <data name="BaseDens" xml:space="preserve">
+    <value>Ambient air density, kg/m³</value>
+  </data>
+  <data name="BaseHumOV" xml:space="preserve">
+    <value>Relative humidity</value>
+  </data>
+  <data name="BaseHumT" xml:space="preserve">
+    <value>T by 'wet' thermometer</value>
+  </data>
+  <data name="BaseHumTR" xml:space="preserve">
+    <value>Dew point</value>
+  </data>
+  <data name="BaseHumV" xml:space="preserve">
+    <value>Moisture content</value>
+  </data>
+  <data name="bBack" xml:space="preserve">
+    <value>Go back</value>
+  </data>
+  <data name="BBox" xml:space="preserve">
+    <value>BBox</value>
+  </data>
+  <data name="bClient" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="bClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="bDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="bDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="bGoBack" xml:space="preserve">
+    <value>Go back</value>
+  </data>
+  <data name="bOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="bOpen" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="bPosition" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="bPrint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="bSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="bСalculation" xml:space="preserve">
+    <value>Сalculation</value>
+  </data>
+  <data name="bСalculationTable" xml:space="preserve">
+    <value>Grid calculation</value>
+  </data>
+  <data name="CalculationResultCode" xml:space="preserve">
+    <value>Calculation result code - </value>
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="CapacityReserve" xml:space="preserve">
+    <value>Capacity reserve, %</value>
+  </data>
+  <data name="CapilarLength" xml:space="preserve">
+    <value>Capilar length</value>
+  </data>
+  <data name="CapilarSizeDiameter" xml:space="preserve">
+    <value>Capilar size / diameter</value>
+  </data>
+  <data name="CasingHeaders" xml:space="preserve">
+    <value>Casing and header characteristics</value>
+  </data>
+  <data name="CasingHeadersHide" xml:space="preserve">
+    <value>Hide the casing and header characteristics </value>
+  </data>
+  <data name="CasingHeadersShow" xml:space="preserve">
+    <value>Show the casing and header characteristics </value>
+  </data>
+  <data name="CasingType" xml:space="preserve">
+    <value>Casing type</value>
+  </data>
+  <data name="CasingType_1" xml:space="preserve">
+    <value>For installation in a VEROSA 200, 251, 300, 700 type air conditioner</value>
+  </data>
+  <data name="CasingType_10" xml:space="preserve">
+    <value>Additional version 1</value>
+  </data>
+  <data name="CasingType_11" xml:space="preserve">
+    <value>Additional version 2</value>
+  </data>
+  <data name="CasingType_1_4835" xml:space="preserve">
+    <value>For installation in a VEROSA 200, 251, 300, 350, 500, 700 type air conditioner</value>
+  </data>
+  <data name="CasingType_2" xml:space="preserve">
+    <value>For connection to an air duct</value>
+  </data>
+  <data name="CasingType_3" xml:space="preserve">
+    <value>For installation in a VEROSA 350 and 500 type air conditioner</value>
+  </data>
+  <data name="CasingType_4" xml:space="preserve">
+    <value>For installation in an Airmate type air conditioner</value>
+  </data>
+  <data name="CasingType_5" xml:space="preserve">
+    <value>For installation in an air conditioner of the KTSKP-G type (1, 2, 3, N) of standard sizes 1,6...6,3</value>
+  </data>
+  <data name="CasingType_6" xml:space="preserve">
+    <value>For VEROSA-600 air conditioners</value>
+  </data>
+  <data name="CasingType_7" xml:space="preserve">
+    <value>For installations BOX, TORS (horizontal arrangement)</value>
+  </data>
+  <data name="CasingType_9" xml:space="preserve">
+    <value>By individual order</value>
+  </data>
+  <data name="CASMAT_AL" xml:space="preserve">
+    <value>Aluminum alloy AMGxx</value>
+  </data>
+  <data name="CASMAT_CU" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="CASMAT_NSBP" xml:space="preserve">
+    <value>Stainless steel without coating</value>
+  </data>
+  <data name="CASMAT_NSNO316" xml:space="preserve">
+    <value>Stainless steel uncoated AISI 316</value>
+  </data>
+  <data name="CASMAT_NSSPP" xml:space="preserve">
+    <value>Powder coated Stainless steel</value>
+  </data>
+  <data name="CASMAT_OSBP" xml:space="preserve">
+    <value>Galvanized steel without coating</value>
+  </data>
+  <data name="CASMAT_OSSPP" xml:space="preserve">
+    <value>Powder coated galvanized steel</value>
+  </data>
+  <data name="MenuAddMAKK" xml:space="preserve">
+    <value>Add MAKK</value>
+  </data>
+  <data name="Concentration" xml:space="preserve">
+    <value>Glycol concentration</value>
+  </data>
+  <data name="CondensateQuanity" xml:space="preserve">
+    <value>Condensate quanity</value>
+  </data>
+  <data name="Condensator" xml:space="preserve">
+    <value>Condensator</value>
+  </data>
+  <data name="CondensatorSave" xml:space="preserve">
+    <value>Condensator</value>
+  </data>
+  <data name="CondensingTemperature" xml:space="preserve">
+    <value>Condensing temperature</value>
+  </data>
+  <data name="CONINF_0" xml:space="preserve">
+    <value>Optimize</value>
+  </data>
+  <data name="CONINF_DN10" xml:space="preserve">
+    <value>DN10</value>
+  </data>
+  <data name="CONINF_DN15" xml:space="preserve">
+    <value>DN15</value>
+  </data>
+  <data name="CONINF_DN20" xml:space="preserve">
+    <value>DN20</value>
+  </data>
+  <data name="CONINF_DN25" xml:space="preserve">
+    <value>DN25</value>
+  </data>
+  <data name="CONINF_DN32" xml:space="preserve">
+    <value>DN32</value>
+  </data>
+  <data name="CONINF_DN40" xml:space="preserve">
+    <value>DN40</value>
+  </data>
+  <data name="CONINF_DN50" xml:space="preserve">
+    <value>DN50</value>
+  </data>
+  <data name="CONINF_DN65" xml:space="preserve">
+    <value>DN65</value>
+  </data>
+  <data name="CONINF_DN80" xml:space="preserve">
+    <value>DN80</value>
+  </data>
+  <data name="ConnectingTheCoolant" xml:space="preserve">
+    <value>Connecting the coolant</value>
+  </data>
+  <data name="ConnectingTheCoolantOne" xml:space="preserve">
+    <value>The output of the collectors on the same side</value>
+  </data>
+  <data name="ConnectingTheCoolantTwo" xml:space="preserve">
+    <value>The output of collectors on different sides</value>
+  </data>
+  <data name="ConnectionDirection" xml:space="preserve">
+    <value>Orientation of the nozzles</value>
+  </data>
+  <data name="ConnectionDirection_0" xml:space="preserve">
+    <value>Standard (perpendicular to the air flow to the side)</value>
+  </data>
+  <data name="ConnectionDirection_1" xml:space="preserve">
+    <value>In the direction of the air flow</value>
+  </data>
+  <data name="ConnectionDirection_2" xml:space="preserve">
+    <value>Against the air flow</value>
+  </data>
+  <data name="ConnectionDirection_3" xml:space="preserve">
+    <value>Perpendicular to the downward air flow</value>
+  </data>
+  <data name="ConnectionDirection_4" xml:space="preserve">
+    <value>Perpendicular to the air flow upwards</value>
+  </data>
+  <data name="ConnectionDirection_5" xml:space="preserve">
+    <value>In the direction of the air flow - inlet, against the air flow - outlet</value>
+  </data>
+  <data name="ConnectionDirection_6" xml:space="preserve">
+    <value>In the direction of the air flow - exit, against the air flow - entrance</value>
+  </data>
+  <data name="ConnectionDirection_7" xml:space="preserve">
+    <value>Perpendicular to the flow of air down - exit, perpendicular to the flow of air up - entrance</value>
+  </data>
+  <data name="ConnectionDirection_8" xml:space="preserve">
+    <value>Perpendicular to the flow of air down - inlet, perpendicular to the flow of air up - outlet</value>
+  </data>
+  <data name="ConnectionOfMotor" xml:space="preserve">
+    <value>Connection of motor</value>
+  </data>
+  <data name="ConnectionOfMotorStar" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="ConnectionOfMotorTriangle" xml:space="preserve">
+    <value>Δ</value>
+  </data>
+  <data name="ConnectionStringDbFan" xml:space="preserve">
+    <value>Data Source=fan.db</value>
+  </data>
+  <data name="CONTPA_1" xml:space="preserve">
+    <value>Under welding</value>
+  </data>
+  <data name="CONTPA_2" xml:space="preserve">
+    <value>With thread</value>
+  </data>
+  <data name="CONTPA_3" xml:space="preserve">
+    <value>With a set of welded flanges</value>
+  </data>
+  <data name="CONTPA_4" xml:space="preserve">
+    <value>With threaded flanges</value>
+  </data>
+  <data name="CONTPA_5" xml:space="preserve">
+    <value>With free flanges</value>
+  </data>
+  <data name="CONTPA_6" xml:space="preserve">
+    <value>Filling fitting</value>
+  </data>
+  <data name="CONTPA_7" xml:space="preserve">
+    <value>Plugged pipe</value>
+  </data>
+  <data name="CONTPA_8" xml:space="preserve">
+    <value>Gruvlock Connection</value>
+  </data>
+  <data name="CoolCondCHILAIR" xml:space="preserve">
+    <value>AQUAMARK Condenser air-cooled chillers</value>
+  </data>
+  <data name="CoolCondCHILWATER" xml:space="preserve">
+    <value>AQUAMARK condenser water-cooled chillers</value>
+  </data>
+  <data name="CoolCondKKB" xml:space="preserve">
+    <value>Compressor and condenser ship unit COMPASS-KKB</value>
+  </data>
+  <data name="CoolCondKRUB" xml:space="preserve">
+    <value>Compressor-receiver units block CRAB</value>
+  </data>
+  <data name="CoolCondMARK" xml:space="preserve">
+    <value>Monoblock units receiver-compressor MARK</value>
+  </data>
+  <data name="CoolCondVKI" xml:space="preserve">
+    <value>Compressor-evaporative air cooler blocks</value>
+  </data>
+  <data name="CSHEET_SingleAirIn" xml:space="preserve">
+    <value>Single air in</value>
+  </data>
+  <data name="CSHEET_SingleAirOut" xml:space="preserve">
+    <value>Single air out</value>
+  </data>
+  <data name="CSHEET_Without" xml:space="preserve">
+    <value>Without</value>
+  </data>
+  <data name="CuSmall" xml:space="preserve">
+    <value>copper</value>
+  </data>
+  <data name="DataPath" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>_Default</value>
+  </data>
+  <data name="degreeСelsius" xml:space="preserve">
+    <value>°С</value>
+  </data>
+  <data name="directСalculation" xml:space="preserve">
+    <value>Direct calculation</value>
+  </data>
+  <data name="DistrBypassCapacity" xml:space="preserve">
+    <value>Distr. Bypass capacity</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="Eng" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="EpoxySmall" xml:space="preserve">
+    <value>epoxy</value>
+  </data>
+  <data name="ErrorExcepTempToPres" xml:space="preserve">
+    <value>Error when converting temperature to pressure or vice versa:</value>
+  </data>
+  <data name="ErrorIsNoGeometry" xml:space="preserve">
+    <value>Calculation was not found for this geometry. There are calculations for geometry :</value>
+  </data>
+  <data name="ErrorLoadingClass" xml:space="preserve">
+    <value>Error loading class</value>
+  </data>
+  <data name="ErrorOnCreatingFile" xml:space="preserve">
+    <value>Error on creating file. Please check data!\nSystemn Msg: </value>
+  </data>
+  <data name="ErrorOnReadingFile" xml:space="preserve">
+    <value>Error on reading file. Please check data!</value>
+  </data>
+  <data name="ErrorPresCond" xml:space="preserve">
+    <value>incorrect condensation pressure value</value>
+  </data>
+  <data name="ErrorPresEvap" xml:space="preserve">
+    <value>incorrect boiling pressure value</value>
+  </data>
+  <data name="ErrorSubCol" xml:space="preserve">
+    <value>incorrect subcooling value</value>
+  </data>
+  <data name="ErrorSubColTemp" xml:space="preserve">
+    <value>incorrect liquid temperature value</value>
+  </data>
+  <data name="ErrorTempCond" xml:space="preserve">
+    <value>incorrect condensation temperature value</value>
+  </data>
+  <data name="ErrorTempEvap" xml:space="preserve">
+    <value>incorrect boiling point value</value>
+  </data>
+  <data name="ErrorTextFromDll" xml:space="preserve">
+    <value>Error text from Dll - </value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>  Error</value>
+  </data>
+  <data name="ErrorWritingFile" xml:space="preserve">
+    <value>Error writing file! Make sure you did the calculation before!</value>
+  </data>
+  <data name="Error_0" xml:space="preserve">
+    <value>Unknown error</value>
+  </data>
+  <data name="Error_1" xml:space="preserve">
+    <value>Reserve load &lt; 0, change the parameters</value>
+  </data>
+  <data name="Error_2" xml:space="preserve">
+    <value>It is not possible to use this geometry, change to another one</value>
+  </data>
+  <data name="Error_3" xml:space="preserve">
+    <value>It is necessary to set values for 'Requested capacity' or 'No of circuits'</value>
+  </data>
+  <data name="Error_4" xml:space="preserve">
+    <value>Select the line to delete</value>
+  </data>
+  <data name="Error_5" xml:space="preserve">
+    <value>Select the line to open</value>
+  </data>
+  <data name="Error_6" xml:space="preserve">
+    <value>Calculation was not found for this geometry. At the moment, not all calculations are possible in the program</value>
+  </data>
+  <data name="Error_7" xml:space="preserve">
+    <value>Incorrect parameters have been entered for the calculation</value>
+  </data>
+  <data name="EsapoBD" xml:space="preserve">
+    <value>Horizontal, backflow</value>
+  </data>
+  <data name="EsapoBU" xml:space="preserve">
+    <value>Vertical, backflow, heat transfer agent input to the upper tube</value>
+  </data>
+  <data name="EsapoBUD" xml:space="preserve">
+    <value>Vertical, backflow, heat transfer agent input to the upper tube</value>
+  </data>
+  <data name="EsapoFD" xml:space="preserve">
+    <value>Vertical, backflow</value>
+  </data>
+  <data name="EsapoFU" xml:space="preserve">
+    <value>Horizontal, backflow, heat transfer agent input to the upper tube or to the lower tube</value>
+  </data>
+  <data name="EsapoFUD" xml:space="preserve">
+    <value>Horizontal, backflow, heat transfer agent input to the upper tube or to the lower tube</value>
+  </data>
+  <data name="EsapoLBI" xml:space="preserve">
+    <value>Horizontal, forward flow, heat transfer agent input to the upper tube or to the lower tube</value>
+  </data>
+  <data name="EsapoLBO" xml:space="preserve">
+    <value>Vertical, backflow, heat transfer agent input to the lower tube</value>
+  </data>
+  <data name="EsapoVFB" xml:space="preserve">
+    <value>Vertical, forward flow, heat transfer agent input to the upper tube</value>
+  </data>
+  <data name="EsapoVFT" xml:space="preserve">
+    <value>Vertical, forward flow, heat transfer agent input to the lower tube</value>
+  </data>
+  <data name="Evaporater" xml:space="preserve">
+    <value>Evaporater</value>
+  </data>
+  <data name="EvaporaterSave" xml:space="preserve">
+    <value>Evaporater</value>
+  </data>
+  <data name="EvaporationAbsPres" xml:space="preserve">
+    <value>Evaporating Abs. Pressure</value>
+  </data>
+  <data name="EvaporationTemperature" xml:space="preserve">
+    <value>Evaporation temperature</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="FanAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="FanAll" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FanBuilder" xml:space="preserve">
+    <value>Builder</value>
+  </data>
+  <data name="FanCurrent" xml:space="preserve">
+    <value>Absorbed Current, A</value>
+  </data>
+  <data name="FanEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="FanEditName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="FanErrorNotBuilder" xml:space="preserve">
+    <value>Enter the Builder</value>
+  </data>
+  <data name="FanErrorNotSeries" xml:space="preserve">
+    <value>Enter the Series</value>
+  </data>
+  <data name="FanErrorNotTipology" xml:space="preserve">
+    <value>Enter the Tipology</value>
+  </data>
+  <data name="FanFrequency" xml:space="preserve">
+    <value>Frequency, Hz</value>
+  </data>
+  <data name="FanMargin" xml:space="preserve">
+    <value>Fan supply by air flow</value>
+  </data>
+  <data name="FanMax" xml:space="preserve">
+    <value>Air Flow Max., m³/h</value>
+  </data>
+  <data name="FanMaxT" xml:space="preserve">
+    <value>Air Flow Max., m³/h</value>
+  </data>
+  <data name="FanMin" xml:space="preserve">
+    <value>Air Flow Min., m³/h</value>
+  </data>
+  <data name="FanMinT" xml:space="preserve">
+    <value>Air Flow Min., m³/h</value>
+  </data>
+  <data name="FanModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="FanName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="FanOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="FanPoints" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="FanPower" xml:space="preserve">
+    <value>Absorbed Power, kW</value>
+  </data>
+  <data name="FanPressure" xml:space="preserve">
+    <value>Pressure, Pa</value>
+  </data>
+  <data name="FanPressureDrop" xml:space="preserve">
+    <value>Fan air flow at</value>
+  </data>
+  <data name="FanRpm" xml:space="preserve">
+    <value>Rounds for minute, Rpm</value>
+  </data>
+  <data name="FanSeries" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="FanSize1" xml:space="preserve">
+    <value>Size (mm)</value>
+  </data>
+  <data name="FanMotorPoles" xml:space="preserve">
+    <value>Motor poles</value>
+  </data>
+  <data name="FanDirection" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="FanTipology" xml:space="preserve">
+    <value>Tipology</value>
+  </data>
+  <data name="FanVoltage" xml:space="preserve">
+    <value>Voltage, V</value>
+  </data>
+  <data name="FanVolume" xml:space="preserve">
+    <value>Volume, m³/h</value>
+  </data>
+  <data name="FanWeight" xml:space="preserve">
+    <value>Weight, kg</value>
+  </data>
+  <data name="Field1" xml:space="preserve">
+    <value>Field|Content1|Content2|Content3|Content4|Content5|Content6|Content7|Content8|Content9|Content10|</value>
+  </data>
+  <data name="Field2" xml:space="preserve">
+    <value>Content11|Content12|Content13|Content14|Content15|Content16|Content17|Content18|Content19|Content20|</value>
+  </data>
+  <data name="Field3" xml:space="preserve">
+    <value>Content21|Content22|Content23|Content24|Content25|Content26|Content27|Content28|Content29|Content30|</value>
+  </data>
+  <data name="Field4" xml:space="preserve">
+    <value>Content31|Content32|Note</value>
+  </data>
+  <data name="FieldMissing" xml:space="preserve">
+    <value>Field missing: </value>
+  </data>
+  <data name="FluidCooler" xml:space="preserve">
+    <value>Fluid Cooler</value>
+  </data>
+  <data name="FluidCoolerSave" xml:space="preserve">
+    <value>Fluid Cooler</value>
+  </data>
+  <data name="FluidEthyleneGlycol" xml:space="preserve">
+    <value>Ethylene Glycol</value>
+  </data>
+  <data name="FluidHeater" xml:space="preserve">
+    <value>Fluid Heater</value>
+  </data>
+  <data name="FluidHeaterSave" xml:space="preserve">
+    <value>Fluid Heater</value>
+  </data>
+  <data name="FluidPropyleneGlycol" xml:space="preserve">
+    <value>Propylene Glycol</value>
+  </data>
+  <data name="FluidW100" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="FoulAirClean" xml:space="preserve">
+    <value>Clean OP air</value>
+  </data>
+  <data name="FoulAirF5" xml:space="preserve">
+    <value>After Filter F5</value>
+  </data>
+  <data name="FoulAirG3" xml:space="preserve">
+    <value>After Filter G3</value>
+  </data>
+  <data name="FoulAirIndustry" xml:space="preserve">
+    <value>Industry/Kitchen air bad filter</value>
+  </data>
+  <data name="FoulAirNo" xml:space="preserve">
+    <value>Clean air no filter</value>
+  </data>
+  <data name="FoulH2OCDW" xml:space="preserve">
+    <value>Cold or Domestic Water</value>
+  </data>
+  <data name="FoulH2ODW" xml:space="preserve">
+    <value>Demineralized Water</value>
+  </data>
+  <data name="FoulH2OGW" xml:space="preserve">
+    <value>Glycol Water</value>
+  </data>
+  <data name="FoulH2OHSW" xml:space="preserve">
+    <value>Heating System Water</value>
+  </data>
+  <data name="FoulH2OSO" xml:space="preserve">
+    <value>Synthetic Oil based</value>
+  </data>
+  <data name="ftih" xml:space="preserve">
+    <value>fti/h</value>
+  </data>
+  <data name="GasSideFoulingFactor" xml:space="preserve">
+    <value>Gas side fouling factor</value>
+  </data>
+  <data name="GasWorkPress" xml:space="preserve">
+    <value>Gas working pressure</value>
+  </data>
+  <data name="GasWorkPressUnit" xml:space="preserve">
+    <value>Gas working pressure</value>
+  </data>
+  <data name="GasWorkPressUnitV" xml:space="preserve">
+    <value>mbar</value>
+  </data>
+  <data name="GasWorkPressUnitVBar" xml:space="preserve">
+    <value>bar</value>
+  </data>
+  <data name="GasWorkPressUnitVKPa" xml:space="preserve">
+    <value>kPa</value>
+  </data>
+  <data name="GasWorkPressUnitVPa" xml:space="preserve">
+    <value>Pa</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Glycol" xml:space="preserve">
+    <value>Glycol</value>
+  </data>
+  <data name="gOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="gs" xml:space="preserve">
+    <value>g/s</value>
+  </data>
+  <data name="gСalculations" xml:space="preserve">
+    <value>Сalculations</value>
+  </data>
+  <data name="HightFinHO" xml:space="preserve">
+    <value>Fin height</value>
+  </data>
+  <data name="HightFinTH" xml:space="preserve">
+    <value>Total height</value>
+  </data>
+  <data name="HotGasTemperature" xml:space="preserve">
+    <value>Hot gas temperature</value>
+  </data>
+  <data name="HotKey1" xml:space="preserve">
+    <value>Alt-Y</value>
+  </data>
+  <data name="HotKey10" xml:space="preserve">
+    <value>Alt-F</value>
+  </data>
+  <data name="HotKey11" xml:space="preserve">
+    <value>Alt-M</value>
+  </data>
+  <data name="HotKey12" xml:space="preserve">
+    <value>Alt-C</value>
+  </data>
+  <data name="HotKey13" xml:space="preserve">
+    <value>Alt-T</value>
+  </data>
+  <data name="HotKey14" xml:space="preserve">
+    <value>Alt-L</value>
+  </data>
+  <data name="HotKey15" xml:space="preserve">
+    <value>Alt-P</value>
+  </data>
+  <data name="HotKey16" xml:space="preserve">
+    <value>Alt-O</value>
+  </data>
+  <data name="HotKey2" xml:space="preserve">
+    <value>Alt-D</value>
+  </data>
+  <data name="HotKey3" xml:space="preserve">
+    <value>Alt-G</value>
+  </data>
+  <data name="HotKey4" xml:space="preserve">
+    <value>Alt-R</value>
+  </data>
+  <data name="HotKey5" xml:space="preserve">
+    <value>Alt-B</value>
+  </data>
+  <data name="HotKey6" xml:space="preserve">
+    <value>Alt-Z</value>
+  </data>
+  <data name="HotKey7" xml:space="preserve">
+    <value>Alt-J</value>
+  </data>
+  <data name="HotKey8" xml:space="preserve">
+    <value>Alt-N</value>
+  </data>
+  <data name="HotKey9" xml:space="preserve">
+    <value>Alt-H</value>
+  </data>
+  <data name="i" xml:space="preserve">
+    <value>i_</value>
+  </data>
+  <data name="INPUT" xml:space="preserve">
+    <value>[INPUT]</value>
+  </data>
+  <data name="InputData" xml:space="preserve">
+    <value>Input data - </value>
+  </data>
+  <data name="I_AirFlow" xml:space="preserve">
+    <value>Air flow</value>
+  </data>
+  <data name="I_AirHumIn" xml:space="preserve">
+    <value>Humidity air IN</value>
+  </data>
+  <data name="I_AirTempIn" xml:space="preserve">
+    <value>Temperature air  IN</value>
+  </data>
+  <data name="I_AirTempOut" xml:space="preserve">
+    <value>Temperature air  OUT</value>
+  </data>
+  <data name="I_CasMat" xml:space="preserve">
+    <value>Casing material</value>
+  </data>
+  <data name="I_CastMat" xml:space="preserve">
+    <value>Casing material</value>
+  </data>
+  <data name="I_CastMat_Cu" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="I_CastMat_Steel" xml:space="preserve">
+    <value>Steel</value>
+  </data>
+  <data name="I_Circuits" xml:space="preserve">
+    <value>No of circuits</value>
+  </data>
+  <data name="I_ConIn" xml:space="preserve">
+    <value>Connection size IN</value>
+  </data>
+  <data name="I_ConOut" xml:space="preserve">
+    <value>Connection size OUT</value>
+  </data>
+  <data name="I_ConType" xml:space="preserve">
+    <value>Type of pipes</value>
+  </data>
+  <data name="I_CSheet" xml:space="preserve">
+    <value>Header Coversheet</value>
+  </data>
+  <data name="I_CSheetL" xml:space="preserve">
+    <value>Header Coversheet over-length</value>
+  </data>
+  <data name="I_Esapo" xml:space="preserve">
+    <value>Orientation of the heat</value>
+  </data>
+  <data name="I_FinStep" xml:space="preserve">
+    <value>Finning step</value>
+  </data>
+  <data name="I_FinThk" xml:space="preserve">
+    <value>Fin Thickness</value>
+  </data>
+  <data name="I_Fluid" xml:space="preserve">
+    <value>Liquid</value>
+  </data>
+  <data name="I_FrameTp" xml:space="preserve">
+    <value>Frame Type</value>
+  </data>
+  <data name="I_Geometry" xml:space="preserve">
+    <value>Geometry</value>
+  </data>
+  <data name="I_HdrQta" xml:space="preserve">
+    <value>No of headers</value>
+  </data>
+  <data name="I_MatHdr" xml:space="preserve">
+    <value>Header Quality</value>
+  </data>
+  <data name="I_MedFlow" xml:space="preserve">
+    <value>Fluid flow rate</value>
+  </data>
+  <data name="I_MedFlowCalc" xml:space="preserve">
+    <value>Refrigerant mass flow</value>
+  </data>
+  <data name="I_NumOfPasses" xml:space="preserve">
+    <value>Number of passes</value>
+  </data>
+  <data name="I_Pipe" xml:space="preserve">
+    <value>Pipe</value>
+  </data>
+  <data name="I_Rows" xml:space="preserve">
+    <value>No of Rows</value>
+  </data>
+  <data name="I_TempFluid" xml:space="preserve">
+    <value>Temperature fluid IN</value>
+  </data>
+  <data name="I_TempFluidOut" xml:space="preserve">
+    <value>Temperature fluid Out</value>
+  </data>
+  <data name="K" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="kgh" xml:space="preserve">
+    <value>kg/h</value>
+  </data>
+  <data name="kgs" xml:space="preserve">
+    <value>kg/s</value>
+  </data>
+  <data name="kJkg" xml:space="preserve">
+    <value>kJ/kg</value>
+  </data>
+  <data name="kPa" xml:space="preserve">
+    <value>kPa</value>
+  </data>
+  <data name="kW" xml:space="preserve">
+    <value>kW</value>
+  </data>
+  <data name="LiquidTemp" xml:space="preserve">
+    <value>Liquid temperature</value>
+  </data>
+  <data name="LitrInSec" xml:space="preserve">
+    <value>l/s</value>
+  </data>
+  <data name="m3h" xml:space="preserve">
+    <value>m³/h</value>
+  </data>
+  <data name="m3s" xml:space="preserve">
+    <value>m³/s</value>
+  </data>
+  <data name="MainAddEditFan" xml:space="preserve">
+    <value>Add/edit fan</value>
+  </data>
+  <data name="MainCool" xml:space="preserve">
+    <value>Heat exchange equipment</value>
+  </data>
+  <data name="MainCool2" xml:space="preserve">
+    <value>Refrigeration equipment</value>
+  </data>
+  <data name="MainCoolCompessor" xml:space="preserve">
+    <value>Refrigeration compressor equipment</value>
+  </data>
+  <data name="MainHeat" xml:space="preserve">
+    <value>Heating equipment</value>
+  </data>
+  <data name="MainProduction" xml:space="preserve">
+    <value>PRODUCTION</value>
+  </data>
+  <data name="MainProduction2" xml:space="preserve">
+    <value>Heat exchange equipment</value>
+  </data>
+  <data name="MainTO" xml:space="preserve">
+    <value>Heat exchangers</value>
+  </data>
+  <data name="MatchedFans" xml:space="preserve">
+    <value>Matched fans</value>
+  </data>
+  <data name="MATHDR_316" xml:space="preserve">
+    <value>Stainless steel without coating AISI 316</value>
+  </data>
+  <data name="MATHDR_Cu" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="MATHDR_CuBl" xml:space="preserve">
+    <value>Blygold coated copper</value>
+  </data>
+  <data name="MATHDR_CuNi" xml:space="preserve">
+    <value>Copper-nickel alloy</value>
+  </data>
+  <data name="MATHDR_CUPC" xml:space="preserve">
+    <value>Powder coated copper</value>
+  </data>
+  <data name="MATHDR_SP" xml:space="preserve">
+    <value>Primed steel</value>
+  </data>
+  <data name="MATHDR_SPC" xml:space="preserve">
+    <value>Powder coated steel</value>
+  </data>
+  <data name="MATHDR_SSPC" xml:space="preserve">
+    <value>Powder coated stainless steel</value>
+  </data>
+  <data name="MATHDR_Steel" xml:space="preserve">
+    <value>Stainless steel without coating</value>
+  </data>
+  <data name="MaximalRefrigerantPressureDrop" xml:space="preserve">
+    <value>Maximal refrigerant pressure drop</value>
+  </data>
+  <data name="MedKPaM" xml:space="preserve">
+    <value>Maximum pressure drop</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MenuAddEditFan" xml:space="preserve">
+    <value>Add / edit fun</value>
+  </data>
+  <data name="MenuMain" xml:space="preserve">
+    <value>Main menu</value>
+  </data>
+  <data name="MenuReturn" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="mm" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="ms" xml:space="preserve">
+    <value>m/s</value>
+  </data>
+  <data name="NoOfRefrigerantCircuits" xml:space="preserve">
+    <value>No of Refrigerant circuits</value>
+  </data>
+  <data name="null1" xml:space="preserve">
+    <value>null</value>
+  </data>
+  <data name="o" xml:space="preserve">
+    <value>o_</value>
+  </data>
+  <data name="OCode" xml:space="preserve">
+    <value>O_Code</value>
+  </data>
+  <data name="OUTPUT" xml:space="preserve">
+    <value>[OUTPUT]</value>
+  </data>
+  <data name="Overheating" xml:space="preserve">
+    <value>Overheating</value>
+  </data>
+  <data name="O_AirPaT" xml:space="preserve">
+    <value>Pressure drop</value>
+  </data>
+  <data name="O_FrameThk" xml:space="preserve">
+    <value>Frame sheet thickness</value>
+  </data>
+  <data name="O_StmBar" xml:space="preserve">
+    <value>Steam Pressure</value>
+  </data>
+  <data name="O_StmFlow" xml:space="preserve">
+    <value>Steam Quantity, kg/h</value>
+  </data>
+  <data name="O_StmHeat" xml:space="preserve">
+    <value>Steam latent heat, kJ/kg</value>
+  </data>
+  <data name="O_StmVelo" xml:space="preserve">
+    <value>Steam velocity, m/s</value>
+  </data>
+  <data name="PageCondensator_Direct" xml:space="preserve">
+    <value>Condensator Direct calculation</value>
+  </data>
+  <data name="PageCondensator_DirectOut" xml:space="preserve">
+    <value>Condensator Direct calculation - results</value>
+  </data>
+  <data name="PageCondensator_Reverse" xml:space="preserve">
+    <value>Condensator Reverse calculation</value>
+  </data>
+  <data name="PageCondensator_ReverseOut" xml:space="preserve">
+    <value>Condensator Reverse calculation - results</value>
+  </data>
+  <data name="PageCondensator_Table" xml:space="preserve">
+    <value>Condensator Reverse grid calculation</value>
+  </data>
+  <data name="PageMAKK_Reverse" xml:space="preserve">
+    <value>Add MAKK</value>
+  </data>
+  <data name="PageMAKK_ReverseOut" xml:space="preserve">
+    <value>Add MAKK - results</value>
+  </data>
+  <data name="PageCoolCompressorFanViewModel" xml:space="preserve">
+    <value>Show fans</value>
+  </data>
+  <data name="PageCoolCompressorFan_AddViewModel" xml:space="preserve">
+    <value>Add a fan</value>
+  </data>
+  <data name="PageCoolCompressorFan_EditViewModel" xml:space="preserve">
+    <value>Edit fan</value>
+  </data>
+  <data name="PageCoolCompressorViewModel" xml:space="preserve">
+    <value>Refrigeration compressor equipment</value>
+  </data>
+  <data name="PageError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="PageEvaporater_Direct" xml:space="preserve">
+    <value>Evaporater Direct calculation</value>
+  </data>
+  <data name="PageEvaporater_DirectOut" xml:space="preserve">
+    <value>Evaporater Direct calculation - results</value>
+  </data>
+  <data name="PageEvaporater_Reverse" xml:space="preserve">
+    <value>Evaporater Reverse calculation</value>
+  </data>
+  <data name="PageEvaporater_ReverseOut" xml:space="preserve">
+    <value>Evaporater Reverse calculation - results</value>
+  </data>
+  <data name="PageEvaporater_Table" xml:space="preserve">
+    <value>Evaporater Reverse grid calculation</value>
+  </data>
+  <data name="PageFluidCooler_Direct" xml:space="preserve">
+    <value>Fluid Cooler Direct calculation</value>
+  </data>
+  <data name="PageFluidCooler_DirectOut" xml:space="preserve">
+    <value>Fluid Cooler Direct calculation - results</value>
+  </data>
+  <data name="PageFluidCooler_Reverse" xml:space="preserve">
+    <value>Fluid Cooler Reverse calculation</value>
+  </data>
+  <data name="PageFluidCooler_ReverseOut" xml:space="preserve">
+    <value>Fluid Cooler Reverse calculation - results</value>
+  </data>
+  <data name="PageFluidCooler_Table" xml:space="preserve">
+    <value>Fluid Cooler Reverse grid calculation</value>
+  </data>
+  <data name="PageFluidHeater_Direct" xml:space="preserve">
+    <value>Fluid Heater Direct calculation</value>
+  </data>
+  <data name="PageFluidHeater_DirectOut" xml:space="preserve">
+    <value>Fluid Heater Direct calculation - results</value>
+  </data>
+  <data name="PageFluidHeater_Reverse" xml:space="preserve">
+    <value>Fluid Heater Reverse calculation</value>
+  </data>
+  <data name="PageFluidHeater_ReverseOut" xml:space="preserve">
+    <value>Fluid Heater Reverse calculation - results</value>
+  </data>
+  <data name="PageFluidHeater_Table" xml:space="preserve">
+    <value>Fluid Heater Reverse grid calculation</value>
+  </data>
+  <data name="PageMain" xml:space="preserve">
+    <value>VezaHeatExchanger</value>
+  </data>
+  <data name="PageSteamHeater_Direct" xml:space="preserve">
+    <value>SteamHeater Direct calculation</value>
+  </data>
+  <data name="PageSteamHeater_DirectOut" xml:space="preserve">
+    <value>SteamHeater Direct calculation</value>
+  </data>
+  <data name="PageSteamHeater_Reverse" xml:space="preserve">
+    <value>SteamHeater Reverse calculation</value>
+  </data>
+  <data name="PageSteamHeater_ReverseOut" xml:space="preserve">
+    <value>SteamHeater Reverse calculation</value>
+  </data>
+  <data name="PageSteamHeater_Table" xml:space="preserve">
+    <value>SteamHeater Reverse grid calculation</value>
+  </data>
+  <data name="PathDll" xml:space="preserve">
+    <value>Dll</value>
+  </data>
+  <data name="PathLogs" xml:space="preserve">
+    <value>logs.txt</value>
+  </data>
+  <data name="PathVeza" xml:space="preserve">
+    <value>Veza</value>
+  </data>
+  <data name="pipe12_0.32Cu" xml:space="preserve">
+    <value>12.00 x 0.32 mm Copper</value>
+  </data>
+  <data name="pipe12_0.35CuG" xml:space="preserve">
+    <value>12.00 x 0.35 mm Copper Fin</value>
+  </data>
+  <data name="pipe12_0.50Cu" xml:space="preserve">
+    <value>12.00 x 0.50 mm Copper</value>
+  </data>
+  <data name="pipe16_0.40Cu" xml:space="preserve">
+    <value>16.00 x 0.40 mm Copper</value>
+  </data>
+  <data name="pipe16_0.50Cu" xml:space="preserve">
+    <value>16.00 x 0.50 mm Copper</value>
+  </data>
+  <data name="pipe16_0.70G" xml:space="preserve">
+    <value>16.00 x 0.70 mm stain.steel</value>
+  </data>
+  <data name="pipe16_1.00G" xml:space="preserve">
+    <value>16.00 x 1.00 mm stain.steel</value>
+  </data>
+  <data name="pipe7_0.28Cu" xml:space="preserve">
+    <value>7.0 x 0.28 mm Copper</value>
+  </data>
+  <data name="pipe7_0.28CuG" xml:space="preserve">
+    <value>7.0 x 0.28 mm Copper Fin</value>
+  </data>
+  <data name="pipe9_0.30Cu" xml:space="preserve">
+    <value>9.52 x 0.30 mm Copper</value>
+  </data>
+  <data name="pipe9_0.30CuG" xml:space="preserve">
+    <value>9.52 x 0.30 mm Copper Fin</value>
+  </data>
+  <data name="pipe9_0.50Cu" xml:space="preserve">
+    <value>9.52 x 0.50 mm Copper</value>
+  </data>
+  <data name="PipeFoulingFactor" xml:space="preserve">
+    <value>Pipe fouling factor</value>
+  </data>
+  <data name="PreviewAir" xml:space="preserve">
+    <value>Air</value>
+  </data>
+  <data name="PreviewAirflow" xml:space="preserve">
+    <value>Airflow</value>
+  </data>
+  <data name="PreviewAirPressureDrop" xml:space="preserve">
+    <value>Pressure drop dry</value>
+  </data>
+  <data name="PreviewAirVelocity" xml:space="preserve">
+    <value>Air velocity</value>
+  </data>
+  <data name="PreviewAluminum" xml:space="preserve">
+    <value>Aluminum</value>
+  </data>
+  <data name="PreviewBaseBar" xml:space="preserve">
+    <value>Ambient air pressure</value>
+  </data>
+  <data name="PreviewClient" xml:space="preserve">
+    <value>Client : </value>
+  </data>
+  <data name="PreviewClient2" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="PreviewCopper" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="PreviewDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="PreviewDescription" xml:space="preserve">
+    <value>Description : </value>
+  </data>
+  <data name="PreviewDiameter" xml:space="preserve">
+    <value>Diameter</value>
+  </data>
+  <data name="PreviewFinHeight" xml:space="preserve">
+    <value>Fin height</value>
+  </data>
+  <data name="PreviewFinLength" xml:space="preserve">
+    <value>Fin length</value>
+  </data>
+  <data name="PreviewFinning" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="PreviewFluidFlowRate" xml:space="preserve">
+    <value>Fluid flow rate</value>
+  </data>
+  <data name="PreviewFluidVelocity" xml:space="preserve">
+    <value>Fluid velocity</value>
+  </data>
+  <data name="PreviewGasSide" xml:space="preserve">
+    <value>Gas side</value>
+  </data>
+  <data name="PreviewGKg" xml:space="preserve">
+    <value>g/kg</value>
+  </data>
+  <data name="PreviewHeatExchanger" xml:space="preserve">
+    <value>Heat exchanger : </value>
+  </data>
+  <data name="PreviewHumidityAbsoultAir" xml:space="preserve">
+    <value>Humidity absoult air</value>
+  </data>
+  <data name="PreviewHumidityAir" xml:space="preserve">
+    <value>Humidity air</value>
+  </data>
+  <data name="PreviewIn" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="PreviewKPa" xml:space="preserve">
+    <value>kPa</value>
+  </data>
+  <data name="PreviewLiquidSide" xml:space="preserve">
+    <value>Liquid side</value>
+  </data>
+  <data name="PreviewLitr" xml:space="preserve">
+    <value>l</value>
+  </data>
+  <data name="PreviewMedVolume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="PreviewObject" xml:space="preserve">
+    <value>Object : </value>
+  </data>
+  <data name="PreviewOut" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="PreviewPa" xml:space="preserve">
+    <value>Pa</value>
+  </data>
+  <data name="PreviewPipes" xml:space="preserve">
+    <value>Pipes</value>
+  </data>
+  <data name="PreviewPower" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="PreviewPowerData" xml:space="preserve">
+    <value>Power data :</value>
+  </data>
+  <data name="PreviewPressureDrop" xml:space="preserve">
+    <value>Pressure drop</value>
+  </data>
+  <data name="PreviewTechnicalSpecifications" xml:space="preserve">
+    <value>Technical specifications</value>
+  </data>
+  <data name="PreviewTemperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="PreviewThickness" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="PreviewTitle" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Procent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="R125" xml:space="preserve">
+    <value>R125</value>
+  </data>
+  <data name="R134a" xml:space="preserve">
+    <value>R134a</value>
+  </data>
+  <data name="R143a" xml:space="preserve">
+    <value>R143a</value>
+  </data>
+  <data name="R22" xml:space="preserve">
+    <value>R22</value>
+  </data>
+  <data name="R32" xml:space="preserve">
+    <value>R32</value>
+  </data>
+  <data name="R404A" xml:space="preserve">
+    <value>R404A</value>
+  </data>
+  <data name="R407C" xml:space="preserve">
+    <value>R407C</value>
+  </data>
+  <data name="R410A" xml:space="preserve">
+    <value>R410A</value>
+  </data>
+  <data name="R507" xml:space="preserve">
+    <value>R507</value>
+  </data>
+  <data name="R513A" xml:space="preserve">
+    <value>R513A</value>
+  </data>
+  <data name="RefrigerantDistributor" xml:space="preserve">
+    <value>Refrigerant distributor</value>
+  </data>
+  <data name="RefrigerantType" xml:space="preserve">
+    <value>Refrigerant type</value>
+  </data>
+  <data name="reverseCalculation" xml:space="preserve">
+    <value>Reverse calculation</value>
+  </data>
+  <data name="Ru" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="SecKey" xml:space="preserve">
+    <value>939288938C8D898A85F550F157DB4B391A2C0EE629F336DF1CD43B40A224153AD00E31EB1421340D51E161C2B7B2AF37BB37</value>
+  </data>
+  <data name="SolePrV" xml:space="preserve">
+    <value>% propylene by volume</value>
+  </data>
+  <data name="stain.steel304Small" xml:space="preserve">
+    <value>stain.steel</value>
+  </data>
+  <data name="SteamHeater" xml:space="preserve">
+    <value>Steam Heater</value>
+  </data>
+  <data name="SteamHeaterSave" xml:space="preserve">
+    <value>SteamHeater</value>
+  </data>
+  <data name="SteamPressure" xml:space="preserve">
+    <value>Steam pressure</value>
+  </data>
+  <data name="SteamPressureBar" xml:space="preserve">
+    <value>Steam pressure, bar</value>
+  </data>
+  <data name="SteamTemperature" xml:space="preserve">
+    <value>Steam temperature</value>
+  </data>
+  <data name="SteamTemperatureC" xml:space="preserve">
+    <value>Steam temperature, °С</value>
+  </data>
+  <data name="strCalculationOption" xml:space="preserve">
+    <value>The calculation option (outlet temperature or fluid flow) has been changed to - </value>
+  </data>
+  <data name="strCalculationSuccessful" xml:space="preserve">
+    <value>The calculation is successful</value>
+  </data>
+  <data name="strCoolantChanged" xml:space="preserve">
+    <value>The coolant is changed to - </value>
+  </data>
+  <data name="strError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="strErrorLog" xml:space="preserve">
+    <value>Error during logging\n</value>
+  </data>
+  <data name="strException" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="strException1" xml:space="preserve">
+    <value>InputData, GetProjectOut(), ProjectsOut = null</value>
+  </data>
+  <data name="strFileOpeningErrorClientDataXml" xml:space="preserve">
+    <value>ClientDataXml - File opening error</value>
+  </data>
+  <data name="strFinChanged" xml:space="preserve">
+    <value>The finning step has been changed to - </value>
+  </data>
+  <data name="strGeometryСhanged" xml:space="preserve">
+    <value>Geometry changed to - </value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>string</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>String 2</value>
+  </data>
+  <data name="strInputString" xml:space="preserve">
+    <value>Input string </value>
+  </data>
+  <data name="strLangСhanged" xml:space="preserve">
+    <value>The interface language has been changed to - </value>
+  </data>
+  <data name="strOutputData" xml:space="preserve">
+    <value>Output data - </value>
+  </data>
+  <data name="strPageCondensator_Direct" xml:space="preserve">
+    <value>PageCondensator_Direct</value>
+  </data>
+  <data name="strPageCondensator_DirectOut" xml:space="preserve">
+    <value>PageCondensator_DirectOut</value>
+  </data>
+  <data name="strPageCondensator_Reverse" xml:space="preserve">
+    <value>PageCondensator_Reverse</value>
+  </data>
+  <data name="strPageCondensator_ReverseOut" xml:space="preserve">
+    <value>PageCondensator_ReverseOut</value>
+  </data>
+  <data name="strPageCondensator_Table" xml:space="preserve">
+    <value>PageCondensator_Table</value>
+  </data>
+  <data name="strPageKKB_Reverse" xml:space="preserve">
+    <value>PageKKB_Reverse</value>
+  </data>
+  <data name="strPageEvaporater_Direct" xml:space="preserve">
+    <value>PageEvaporater_Direct</value>
+  </data>
+  <data name="strPageEvaporater_DirectOut" xml:space="preserve">
+    <value>PageEvaporater_DirectOut</value>
+  </data>
+  <data name="strPageEvaporater_Reverse" xml:space="preserve">
+    <value>PageEvaporater_Reverse</value>
+  </data>
+  <data name="strPageEvaporater_ReverseOut" xml:space="preserve">
+    <value>PageEvaporater_ReverseOut</value>
+  </data>
+  <data name="strPageEvaporater_Table" xml:space="preserve">
+    <value>PageEvaporater_Table</value>
+  </data>
+  <data name="strPageFluidCooler_Direct" xml:space="preserve">
+    <value>PageFluidCooler_Direct</value>
+  </data>
+  <data name="strPageFluidCooler_DirectOut" xml:space="preserve">
+    <value>PageFluidCooler_DirectOut</value>
+  </data>
+  <data name="strPageFluidCooler_Reverse" xml:space="preserve">
+    <value>PageFluidCooler_Reverse</value>
+  </data>
+  <data name="strPageFluidCooler_ReverseOut" xml:space="preserve">
+    <value>PageFluidCooler_ReverseOut</value>
+  </data>
+  <data name="strPageFluidCooler_Table" xml:space="preserve">
+    <value>PageFluidCooler_Table</value>
+  </data>
+  <data name="strPageFluidHeater_Direct" xml:space="preserve">
+    <value>PageFluidHeater_Direct</value>
+  </data>
+  <data name="strPageFluidHeater_DirectOut" xml:space="preserve">
+    <value>PageFluidHeater_DirectOut</value>
+  </data>
+  <data name="strPageFluidHeater_Reverse" xml:space="preserve">
+    <value>PageFluidHeater_Reverse</value>
+  </data>
+  <data name="strPageFluidHeater_ReverseOut" xml:space="preserve">
+    <value>PageFluidHeater_ReverseOut</value>
+  </data>
+  <data name="strPageFluidHeater_Table" xml:space="preserve">
+    <value>PageFluidHeater_Table</value>
+  </data>
+  <data name="strPageSteamHeater_Direct" xml:space="preserve">
+    <value>PageSteamHeater_Direct</value>
+  </data>
+  <data name="strPageSteamHeater_DirectOut" xml:space="preserve">
+    <value>PageSteamHeater_DirectOut</value>
+  </data>
+  <data name="strPageSteamHeater_Reverse" xml:space="preserve">
+    <value>PageSteamHeater_Reverse</value>
+  </data>
+  <data name="strPageSteamHeater_ReverseOut" xml:space="preserve">
+    <value>PageSteamHeater_ReverseOut</value>
+  </data>
+  <data name="strPageSteamHeater_Table" xml:space="preserve">
+    <value>PageSteamHeater_Table</value>
+  </data>
+  <data name="strThicknessFinChanged" xml:space="preserve">
+    <value>The thickness of the fins has been changed to - </value>
+  </data>
+  <data name="strTubeChanged" xml:space="preserve">
+    <value>The tube has been changed to - </value>
+  </data>
+  <data name="strValidErrorException" xml:space="preserve">
+    <value>ValidErrorException</value>
+  </data>
+  <data name="strСhanged_I_FoulingI" xml:space="preserve">
+    <value>The pollution coefficient of the pipe has been changed to - </value>
+  </data>
+  <data name="strСhanged_I_RefT" xml:space="preserve">
+    <value>The type of refrigerant has been changed to - </value>
+  </data>
+  <data name="SubCooling" xml:space="preserve">
+    <value>Subcooling</value>
+  </data>
+  <data name="SuctGasReturn" xml:space="preserve">
+    <value>Suct. gas return</value>
+  </data>
+  <data name="SuctionGasTemperature" xml:space="preserve">
+    <value>Suction gas temperature</value>
+  </data>
+  <data name="SurfaceReserve" xml:space="preserve">
+    <value>Surface reserve, %</value>
+  </data>
+  <data name="TableOutColumn_1" xml:space="preserve">
+    <value>Coil Code</value>
+  </data>
+  <data name="TableOutColumn_10" xml:space="preserve">
+    <value>Temperature air  OUT, °С</value>
+  </data>
+  <data name="TableOutColumn_11" xml:space="preserve">
+    <value>Geometry</value>
+  </data>
+  <data name="TableOutColumn_12" xml:space="preserve">
+    <value>Finned width, mm</value>
+  </data>
+  <data name="TableOutColumn_13" xml:space="preserve">
+    <value>Finned height, mm</value>
+  </data>
+  <data name="TableOutColumn_14" xml:space="preserve">
+    <value>Temperature air  IN, °С</value>
+  </data>
+  <data name="TableOutColumn_15" xml:space="preserve">
+    <value>Humidity air IN, %</value>
+  </data>
+  <data name="TableOutColumn_16" xml:space="preserve">
+    <value>Requested capacity</value>
+  </data>
+  <data name="TableOutColumn_17" xml:space="preserve">
+    <value>Airflow, m³/h</value>
+  </data>
+  <data name="TableOutColumn_18" xml:space="preserve">
+    <value>Temperature fluid IN, °С</value>
+  </data>
+  <data name="TableOutColumn_19" xml:space="preserve">
+    <value>Temperature fluid OUT, °С</value>
+  </data>
+  <data name="TableOutColumn_2" xml:space="preserve">
+    <value>No of Rows</value>
+  </data>
+  <data name="TableOutColumn_20" xml:space="preserve">
+    <value>Total capacity, kW</value>
+  </data>
+  <data name="TableOutColumn_21" xml:space="preserve">
+    <value>Fluid</value>
+  </data>
+  <data name="TableOutColumn_22" xml:space="preserve">
+    <value>Glycol concentration, %</value>
+  </data>
+  <data name="TableOutColumn_23" xml:space="preserve">
+    <value>Fluid flow rate, l/s</value>
+  </data>
+  <data name="TableOutColumn_24" xml:space="preserve">
+    <value>Refrigerant Pressure drop, bar</value>
+  </data>
+  <data name="TableOutColumn_25" xml:space="preserve">
+    <value>Refrigerant Pressure drop, K</value>
+  </data>
+  <data name="TableOutColumn_26" xml:space="preserve">
+    <value>Hot gas temperature, °С</value>
+  </data>
+  <data name="TableOutColumn_27" xml:space="preserve">
+    <value>No of Refrigerant circuits</value>
+  </data>
+  <data name="TableOutColumn_28" xml:space="preserve">
+    <value>Refrigerant volume, m³/h</value>
+  </data>
+  <data name="TableOutColumn_29" xml:space="preserve">
+    <value>Condensing temperature, °С</value>
+  </data>
+  <data name="TableOutColumn_3" xml:space="preserve">
+    <value>No of circuits</value>
+  </data>
+  <data name="TableOutColumn_30" xml:space="preserve">
+    <value>Evaporation temperature, °С</value>
+  </data>
+  <data name="TableOutColumn_31" xml:space="preserve">
+    <value>Maximal refrigerant pressure drop, K</value>
+  </data>
+  <data name="TableOutColumn_32" xml:space="preserve">
+    <value>Humidity air OUT, %</value>
+  </data>
+  <data name="TableOutColumn_33" xml:space="preserve">
+    <value>Humidity absoult air OUT, g/kg</value>
+  </data>
+  <data name="TableOutColumn_34" xml:space="preserve">
+    <value>Mass flow, kg/h</value>
+  </data>
+  <data name="TableOutColumn_35" xml:space="preserve">
+    <value>Volume, l</value>
+  </data>
+  <data name="TableOutColumn_36" xml:space="preserve">
+    <value>Rows in height</value>
+  </data>
+  <data name="TableOutColumn_37" xml:space="preserve">
+    <value>Specific weight Glycol, kg/m³</value>
+  </data>
+  <data name="TableOutColumn_38" xml:space="preserve">
+    <value>Conductivity Glycol, w/m K</value>
+  </data>
+  <data name="TableOutColumn_39" xml:space="preserve">
+    <value>Freeze Temperature, °С</value>
+  </data>
+  <data name="TableOutColumn_4" xml:space="preserve">
+    <value>Fin space, mm</value>
+  </data>
+  <data name="TableOutColumn_40" xml:space="preserve">
+    <value>Viscosity Glycol, mm²/s</value>
+  </data>
+  <data name="TableOutColumn_41" xml:space="preserve">
+    <value>Heat transfer Glycol, kJ/kg K</value>
+  </data>
+  <data name="TableOutColumn_42" xml:space="preserve">
+    <value>Steam latent heat, kJ/kg</value>
+  </data>
+  <data name="TableOutColumn_43" xml:space="preserve">
+    <value>Refrigerant massflow, kg/h</value>
+  </data>
+  <data name="TableOutColumn_44" xml:space="preserve">
+    <value>Refrigerant Pressure, bar</value>
+  </data>
+  <data name="TableOutColumn_45" xml:space="preserve">
+    <value>Capilar size / diameter, mm</value>
+  </data>
+  <data name="TableOutColumn_46" xml:space="preserve">
+    <value>Capilar length, mm</value>
+  </data>
+  <data name="TableOutColumn_47" xml:space="preserve">
+    <value>Sensible capacity, kW</value>
+  </data>
+  <data name="TableOutColumn_48" xml:space="preserve">
+    <value>Condensate quanity, kg/h</value>
+  </data>
+  <data name="TableOutColumn_49" xml:space="preserve">
+    <value>Refrigerant distributor</value>
+  </data>
+  <data name="TableOutColumn_5" xml:space="preserve">
+    <value>Air velocity, m/s</value>
+  </data>
+  <data name="TableOutColumn_50" xml:space="preserve">
+    <value>Pressure drop wet, Pa</value>
+  </data>
+  <data name="TableOutColumn_51" xml:space="preserve">
+    <value>Sensible heat ratio</value>
+  </data>
+  <data name="TableOutColumn_6" xml:space="preserve">
+    <value>Pressure drop dry (air), Pa</value>
+  </data>
+  <data name="TableOutColumn_7" xml:space="preserve">
+    <value>Reserve load, %</value>
+  </data>
+  <data name="TableOutColumn_8" xml:space="preserve">
+    <value>Fluid velocity, m/s</value>
+  </data>
+  <data name="TableOutColumn_9" xml:space="preserve">
+    <value>Pressure drop (liquid), kPa</value>
+  </data>
+  <data name="Table_O_DxCxBar" xml:space="preserve">
+    <value>Refrigerant Pressure drop</value>
+  </data>
+  <data name="Table_O_DxCxVol" xml:space="preserve">
+    <value>Refrigerant volume</value>
+  </data>
+  <data name="Table_O_RCirc" xml:space="preserve">
+    <value>No of Refrigerant circuits</value>
+  </data>
+  <data name="Table_O_THotGas" xml:space="preserve">
+    <value>Hot gas temperature</value>
+  </data>
+  <data name="TempOutBTU" xml:space="preserve">
+    <value>Power, BTU/h</value>
+  </data>
+  <data name="TempOutNR" xml:space="preserve">
+    <value>Number of rows</value>
+  </data>
+  <data name="TempOutPKKal" xml:space="preserve">
+    <value>Power, kkal/h</value>
+  </data>
+  <data name="TempOutPkVt" xml:space="preserve">
+    <value>Power, kWt</value>
+  </data>
+  <data name="TempOutTOut" xml:space="preserve">
+    <value>Т out</value>
+  </data>
+  <data name="TipologyAxialMonophase" xml:space="preserve">
+    <value>Axial Monophase</value>
+  </data>
+  <data name="TipologyAxialTriphase" xml:space="preserve">
+    <value>Axial Triphase</value>
+  </data>
+  <data name="TipologyCentriphugal" xml:space="preserve">
+    <value>Centriphugal</value>
+  </data>
+  <data name="TipologyDirectlyCoupled" xml:space="preserve">
+    <value>Directly coupled</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="TubeSideFoulingFactor" xml:space="preserve">
+    <value>Tube side fouling factor</value>
+  </data>
+  <data name="TubesN" xml:space="preserve">
+    <value>Tubes №</value>
+  </data>
+  <data name="TVAdvProp" xml:space="preserve">
+    <value>Additional fields</value>
+  </data>
+  <data name="txt" xml:space="preserve">
+    <value>.txt</value>
+  </data>
+  <data name="TxtErr" xml:space="preserve">
+    <value>TxtErr</value>
+  </data>
+  <data name="TxtKeys" xml:space="preserve">
+    <value>TxtKeys</value>
+  </data>
+  <data name="ValidationError1" xml:space="preserve">
+    <value>The number must be greater than 0</value>
+  </data>
+  <data name="ValidationError2" xml:space="preserve">
+    <value>Enter a number</value>
+  </data>
+  <data name="ValidationError3" xml:space="preserve">
+    <value>Please enter 5012 or 4816 or 3512 or 2510 or 2507</value>
+  </data>
+  <data name="ValidationError4" xml:space="preserve">
+    <value>is not available in this version of the program</value>
+  </data>
+  <data name="ValidationError5" xml:space="preserve">
+    <value>Enter a name</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="VEZ" xml:space="preserve">
+    <value>VEZ</value>
+  </data>
+  <data name="VezaTxt1" xml:space="preserve">
+    <value>LLC "VEZA" Address:142460, Moscow region, Noginsk district, village of.Vorovsky, Rabochaya str., 10a</value>
+  </data>
+  <data name="VezaTxt2" xml:space="preserve">
+    <value>Phone numbers:+ 7(495) 223-01-92 +7(495) 223-01-88 SECRETARY +7(495)223-01-88</value>
+  </data>
+  <data name="VezaTxt3" xml:space="preserve">
+    <value>website   www.veza.ru      email: info@veza.ru</value>
+  </data>
+  <data name="WeightFluidWF" xml:space="preserve">
+    <value>Liquid weight kg/s</value>
+  </data>
+  <data name="WidthFinDO" xml:space="preserve">
+    <value>Fin length</value>
+  </data>
+  <data name="WidthFinOD" xml:space="preserve">
+    <value>Total length</value>
+  </data>
+  <data name="WindowCalculat" xml:space="preserve">
+    <value>Calculation ...</value>
+  </data>
+  <data name="WindowsAddFan" xml:space="preserve">
+    <value>Fan added</value>
+  </data>
+  <data name="WithoutOil" xml:space="preserve">
+    <value>Without Oil</value>
+  </data>
+  <data name="xmlClient" xml:space="preserve">
+    <value>clientData.xml</value>
+  </data>
+  <data name="xmlName" xml:space="preserve">
+    <value>codes.xml</value>
+  </data>
+  <data name="EquipmentKKBCompressor" xml:space="preserve">
+    <value>Compressor</value>
+  </data>
+  <data name="EquipmentKKBCompressorCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="EquipmentKKBFan" xml:space="preserve">
+    <value>Fan</value>
+  </data>
+  <data name="EquipmentKKBFanCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="EquipmentKKBHeatExchanger" xml:space="preserve">
+    <value>Heat exchanger</value>
+  </data>
+  <data name="EquipmentKKBHeatExchangerCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="EquipmentKKBModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="EqupmentKKBNoOfCircuits" xml:space="preserve">
+    <value>No of circuits</value>
+  </data>
+  <data name="MenuMAKKViewEdit" xml:space="preserve">
+    <value>Add /edit MAKK</value>
+  </data>
+  <data name="MsgNotFans" xml:space="preserve">
+    <value>There are no suitable fans</value>
+  </data>
+  <data name="PageEquipmentMAKKViewModel" xml:space="preserve">
+    <value>Equipment editor</value>
+  </data>
+  <data name="PageEquipmentMAKK_EditViewModel" xml:space="preserve">
+    <value>Editing of KKB MAKK equipment</value>
+  </data>
+  <data name="EquipmentKKBCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="EquipmentKKBCircuitsCount" xml:space="preserve">
+    <value>Number of circuits</value>
+  </data>
+  <data name="bCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PageEquipmentMAKK_AddViewModel" xml:space="preserve">
+    <value>Adding of KKB MAKK equipment</value>
+  </data>
+  <data name="xmlParamsFile" xml:space="preserve">
+    <value>params.xml</value>
+  </data>
+  <data name="CondMAKK" xml:space="preserve">
+    <value>MAKK</value>
+  </data>
+  <data name="InvoTechPathDll" xml:space="preserve">
+    <value>\InvoTech\InvoTech.dll</value>
+  </data>
+  <data name="InvoTechPath" xml:space="preserve">
+    <value>\InvoTech</value>
+  </data>
+  <data name="PageKKB_1" xml:space="preserve">
+    <value>KKB InvoTech</value>
+  </data>
+  <data name="PageKKB_2" xml:space="preserve">
+    <value>KKB BITZER</value>
+  </data>
+  <data name="BitzerPath" xml:space="preserve">
+    <value>\Bitzer</value>
+  </data>
+  <data name="BitzerPathDll" xml:space="preserve">
+    <value>\Bitzer\Bitzer.dll</value>
+  </data>
+  <data name="LangInterface" xml:space="preserve">
+    <value>Interface language</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version 0.7.6</value>
+  </data>
+  <data name="PageKKB_MAKK" xml:space="preserve">
+    <value>KKB MAKK</value>
+  </data>
+  <data name="VezaCoolPath" xml:space="preserve">
+    <value>\VezaCool</value>
+  </data>
+  <data name="VezaCoolPathDll" xml:space="preserve">
+    <value>\VezaCool\VezaCool.dll</value>
+  </data>
+  <data name="AddressObject" xml:space="preserve">
+    <value>Address of the object</value>
+  </data>
+  <data name="DateOfSelection" xml:space="preserve">
+    <value>Date of selection</value>
+  </data>
+  <data name="NameProject" xml:space="preserve">
+    <value>Name of the project</value>
+  </data>
+  <data name="OrderForm" xml:space="preserve">
+    <value>Order form</value>
+  </data>
+  <data name="ProjectInformation" xml:space="preserve">
+    <value>Project information</value>
+  </data>
+  <data name="ProjectManager" xml:space="preserve">
+    <value>Project manager</value>
+  </data>
+  <data name="ProjectNumber" xml:space="preserve">
+    <value>Project number</value>
+  </data>
+  <data name="MAKKAddressStp" xml:space="preserve">
+    <value>Адрес проекта / Address:</value>
+  </data>
+  <data name="MAKKCost1" xml:space="preserve">
+    <value>Стоимость за 1 шт., Рублей с НДС 20% / 
+Price, RUB incl. VAT</value>
+  </data>
+  <data name="MAKKDataProgetto" xml:space="preserve">
+    <value>Дата подбора / Selection date:</value>
+  </data>
+  <data name="MAKKProjectManagerStp" xml:space="preserve">
+    <value>Менеджер проекта / Project manager:</value>
+  </data>
+  <data name="MAKKMadeInRussia" xml:space="preserve">
+    <value>Сделано качественно. Сделано в России.</value>
+  </data>
+  <data name="MAKKProductsVeza" xml:space="preserve">
+    <value>VEZA LLC offers to deliver the following goods:</value>
+  </data>
+  <data name="MAKKProjectNameStp" xml:space="preserve">
+    <value>Наименование проекта / Project name:</value>
+  </data>
+  <data name="MAKKProjectNumberStp" xml:space="preserve">
+    <value>Номер проекта / Project number:</value>
+  </data>
+  <data name="MAKKSerieStr" xml:space="preserve">
+    <value>Компрессорно-конденсаторный блок серии</value>
+  </data>
+  <data name="MAKKSerieStr2" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="MAKKTableName" xml:space="preserve">
+    <value>Наименование / Name</value>
+  </data>
+  <data name="MAKKTableQuantity" xml:space="preserve">
+    <value>Кол-во, шт. / Quantity, pcs</value>
+  </data>
+  <data name="MAKKTechnicalOfferNbrStp" xml:space="preserve">
+    <value>Бланк-заказ / Technical offer №</value>
+  </data>
+  <data name="MAKKTechnicalSpecifications" xml:space="preserve">
+    <value>Technical data</value>
+  </data>
+  <data name="MAKKTotalPrice" xml:space="preserve">
+    <value>Сумма, 
+Рублей с НДС 20% / 
+Total, RUB incl. VAT</value>
+  </data>
+  <data name="MAKKUnitDescr" xml:space="preserve">
+    <value>Описание агрегата / Unit description</value>
+  </data>
+  <data name="MAKKParameter" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="MAKKTechnicalData" xml:space="preserve">
+    <value>Технические характеристики оборудования / Technical data</value>
+  </data>
+  <data name="MAKKValue" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="MAKKAvailableOptions" xml:space="preserve">
+    <value>Доступные опции / Available options</value>
+  </data>
+  <data name="MAKKDescription" xml:space="preserve">
+    <value>компрессорно-конденсаторный агрегат /</value>
+  </data>
+  <data name="MAKKDrawing" xml:space="preserve">
+    <value>Drawing</value>
+  </data>
+  <data name="MAKKIso3744" xml:space="preserve">
+    <value>(2) Sound pressure level values according to ISO 3744</value>
+  </data>
+  <data name="MAKKNoOptions" xml:space="preserve">
+    <value>(1) Excluding options</value>
+  </data>
+  <data name="MAKKUnitCompos" xml:space="preserve">
+    <value>Состав агрегата / Unit composition</value>
+  </data>
+  <data name="MAKKAmbientTemperature" xml:space="preserve">
+    <value>Ambient temperature (°C)</value>
+  </data>
+  <data name="MAKKBDrawing" xml:space="preserve">
+    <value>Drawing</value>
+  </data>
+  <data name="MAKKBOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="MAKKBPrint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="MAKKBSelection" xml:space="preserve">
+    <value>Selection</value>
+  </data>
+  <data name="MAKKCoolCapac" xml:space="preserve">
+    <value>Cooling capacity (kW)</value>
+  </data>
+  <data name="MAKKCoolingCapacity" xml:space="preserve">
+    <value>Requested capacity  (kW)</value>
+  </data>
+  <data name="MAKKEER" xml:space="preserve">
+    <value>EER</value>
+  </data>
+  <data name="MAKKErrorRate" xml:space="preserve">
+    <value>Tolerance (%)</value>
+  </data>
+  <data name="MAKKMargin" xml:space="preserve">
+    <value>Margin (%)</value>
+  </data>
+  <data name="MAKKMKOption" xml:space="preserve">
+    <value>    MK built-in mounting kit</value>
+  </data>
+  <data name="MAKKNumCirc" xml:space="preserve">
+    <value>Number of circuits</value>
+  </data>
+  <data name="MAKKOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="MAKKPrice" xml:space="preserve">
+    <value>Price (EUR)</value>
+  </data>
+  <data name="MAKKQAccessories" xml:space="preserve">
+    <value>Accessories</value>
+  </data>
+  <data name="MAKKRefrigerant" xml:space="preserve">
+    <value>Refrigerant:</value>
+  </data>
+  <data name="MAKKSeries" xml:space="preserve">
+    <value>SERIES</value>
+  </data>
+  <data name="MAKKStrResults" xml:space="preserve">
+    <value>RESULTS</value>
+  </data>
+  <data name="MAKKTempBoiling" xml:space="preserve">
+    <value>Evaporating temperature (°C)</value>
+  </data>
+  <data name="MAKKTotalPower" xml:space="preserve">
+    <value>Total absorbed power (kW)</value>
+  </data>
+  <data name="MAKKUnit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="WindowLoad" xml:space="preserve">
+    <value>Loading ...</value>
+  </data>
+  <data name="MAKKOptionsBlank" xml:space="preserve">
+    <value>Опции / Options</value>
+  </data>
+  <data name="MAKKQAccessoriesBlank" xml:space="preserve">
+    <value>Дополнительные комплектующие (поставляются отдельно) / 
+Additional equipment (supplied separately)</value>
+  </data>
+  <data name="SharkCorePath" xml:space="preserve">
+    <value>C:\Program Files (x86)\VezaCool\SharkCORE.dll</value>
+  </data>
+  <data name="NoVezaCollInstalled" xml:space="preserve">
+    <value>The installed VezaCool program is required for operation, the serial number for VezaCool is not required</value>
+  </data>
+  <data name="FanHoles" xml:space="preserve">
+    <value>Holes</value>
+  </data>
+  <data name="FanIP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="FanMaterials" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="FanMount" xml:space="preserve">
+    <value>Mount</value>
+  </data>
+  <data name="FanNBlades" xml:space="preserve">
+    <value>Number of blades</value>
+  </data>
+  <data name="FanAEffFactor" xml:space="preserve">
+    <value>A Eff factor, %</value>
+  </data>
+  <data name="FanAPowerInput" xml:space="preserve">
+    <value>A Power Input, W</value>
+  </data>
+  <data name="FanAStatPres" xml:space="preserve">
+    <value>A Static pressure, Pa</value>
+  </data>
+  <data name="FanATotalPres" xml:space="preserve">
+    <value>A Total pressure, Pa</value>
+  </data>
+  <data name="FanBEffFactor" xml:space="preserve">
+    <value>B Eff factor, %</value>
+  </data>
+  <data name="FanBPowerInput" xml:space="preserve">
+    <value>B Power Input, W</value>
+  </data>
+  <data name="FanBStatPres" xml:space="preserve">
+    <value>B Static pressure, Pa</value>
+  </data>
+  <data name="FanBTotalPres" xml:space="preserve">
+    <value>B Total pressure, Pa</value>
+  </data>
+  <data name="FanCEffFactor" xml:space="preserve">
+    <value>C Eff factor, %</value>
+  </data>
+  <data name="FanCPowerInput" xml:space="preserve">
+    <value>C Power Input, W</value>
+  </data>
+  <data name="FanCStatPres" xml:space="preserve">
+    <value>C Static pressure, Pa</value>
+  </data>
+  <data name="FanCTotalPres" xml:space="preserve">
+    <value>C Total pressure, Pa</value>
+  </data>
+  <data name="FanMountType" xml:space="preserve">
+    <value>Hole type</value>
+  </data>
+  <data name="FanNoiseLp" xml:space="preserve">
+    <value>Noise level, dB(A)</value>
+  </data>
+  <data name="MAKKTitle" xml:space="preserve">
+    <value>MAKK</value>
+  </data>
+  <data name="MountTypeCircle" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="MountTypeSquare" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="FanStep" xml:space="preserve">
+    <value>Air flow, m³/h</value>
+  </data>
+  <data name="FanStepEffFactor1" xml:space="preserve">
+    <value>Eff factor, %</value>
+  </data>
+  <data name="FanStepEffFactor2" xml:space="preserve">
+    <value>Eff factor, %</value>
+  </data>
+  <data name="FanStepPowerInput" xml:space="preserve">
+    <value>Power input, W</value>
+  </data>
+  <data name="FanStepStPres" xml:space="preserve">
+    <value>Static pressure, Pa</value>
+  </data>
+  <data name="FanStepTotPres" xml:space="preserve">
+    <value>Total pressure, Pa</value>
+  </data>
+  <data name="FanStepTable1" xml:space="preserve">
+    <value>AirFlow - PowerInput</value>
+  </data>
+  <data name="BFanViewPoints" xml:space="preserve">
+    <value>View points</value>
+  </data>
+  <data name="FanStepAirFlow" xml:space="preserve">
+    <value>Airflow, m³/h</value>
+  </data>
+  <data name="FanStepAirFlowS" xml:space="preserve">
+    <value>Airflow, m³/sec</value>
+  </data>
+  <data name="FanStepDynPres" xml:space="preserve">
+    <value>Dynamic pressure, Pa</value>
+  </data>
+  <data name="FanStepDynPresFactor" xml:space="preserve">
+    <value>Dynamic pressure factor</value>
+  </data>
+  <data name="FanStepEffFactor" xml:space="preserve">
+    <value>Eff factor</value>
+  </data>
+  <data name="FanStepEffFactorProcent" xml:space="preserve">
+    <value>Eff factor, %</value>
+  </data>
+  <data name="FanStepPerfFactor" xml:space="preserve">
+    <value>Perf factor</value>
+  </data>
+  <data name="FanStepPowerFactor" xml:space="preserve">
+    <value>Power factor</value>
+  </data>
+  <data name="FanStepSizeFactor" xml:space="preserve">
+    <value>Size factor</value>
+  </data>
+  <data name="FanStepSpeed" xml:space="preserve">
+    <value>Speed, rpm</value>
+  </data>
+  <data name="FanStepSpeedFactor" xml:space="preserve">
+    <value>Speed factor</value>
+  </data>
+  <data name="FanStepStatPresFactor" xml:space="preserve">
+    <value>Static pressure factor</value>
+  </data>
+  <data name="FanStepTotalPresFactor" xml:space="preserve">
+    <value>Total pressure factor</value>
+  </data>
+  <data name="FanStepTable2" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="FanStepAdd" xml:space="preserve">
+    <value>Add points</value>
+  </data>
+  <data name="FanPointsAirFlowMax" xml:space="preserve">
+    <value>Air flow max</value>
+  </data>
+  <data name="FanPointsAirFlowMin" xml:space="preserve">
+    <value>Air flow min</value>
+  </data>
+  <data name="FanPointsDensity" xml:space="preserve">
+    <value>Density</value>
+  </data>
+  <data name="FanPointsHumidity" xml:space="preserve">
+    <value>Humidity</value>
+  </data>
+  <data name="FanPointsPressure" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="FanPointsSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="kgm3" xml:space="preserve">
+    <value>kg/m³</value>
+  </data>
+  <data name="FanErrorNoPointsFields" xml:space="preserve">
+    <value>No "Size, Air Flow Max, Air Flow Min, A Static pressure, B Static pressure, C Static pressure, A Total pressure, B Total pressure, C Total pressure, A Eff factor, B Eff factor, C Eff factor, A Power Input, B Power Input, C Power Input" variables have been introduced to calculate the points of the fan graph</value>
+  </data>
+  <data name="FanPointsErrorNoFields" xml:space="preserve">
+    <value>The values of the "Temperature, Humidity, Density" fields are not set</value>
+  </data>
+  <data name="FanPointsErrorNoPoints" xml:space="preserve">
+    <value>Fill in the values of the fields in the left table</value>
+  </data>
+  <data name="FanStepEdit" xml:space="preserve">
+    <value>Edit points</value>
+  </data>
+  <data name="PageCoolCompressorFanPoints_AddViewModel" xml:space="preserve">
+    <value>Add fan graph points</value>
+  </data>
+  <data name="PageCoolCompressorFanPoints_EditViewModel" xml:space="preserve">
+    <value>Edit fan graph points</value>
+  </data>
+  <data name="Fan" xml:space="preserve">
+    <value>Fan</value>
+  </data>
+  <data name="Compressor" xml:space="preserve">
+    <value>Compressor</value>
+  </data>
+  <data name="KKBCondensator" xml:space="preserve">
+    <value>Condensator</value>
+  </data>
+  <data name="KKBEvaporater" xml:space="preserve">
+    <value>Evaporater</value>
+  </data>
+  <data name="KKBCompressorMasFlow" xml:space="preserve">
+    <value>Suction mass flow:</value>
+  </data>
+  <data name="KKBCompressorModel" xml:space="preserve">
+    <value>Model:</value>
+  </data>
+  <data name="KKBCompressorTotal" xml:space="preserve">
+    <value>Cooling capacity: </value>
+  </data>
+  <data name="CompressorCOP" xml:space="preserve">
+    <value>COP, kW/kW</value>
+  </data>
+  <data name="CompressorCurrent" xml:space="preserve">
+    <value>Current, A</value>
+  </data>
+  <data name="CompressorHeatRejection" xml:space="preserve">
+    <value>Heat Rejection, kW</value>
+  </data>
+  <data name="CompressorManufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="CompressorMassFlow" xml:space="preserve">
+    <value>Mass Flow, kg/h</value>
+  </data>
+  <data name="CompressorModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="CompressorPowerInput" xml:space="preserve">
+    <value>Power Input, kW</value>
+  </data>
+  <data name="CompressorRefrigerationCapacity" xml:space="preserve">
+    <value>Refrigeration Capacity, kW</value>
+  </data>
+  <data name="CompressorVoltage" xml:space="preserve">
+    <value>Voltage/ Frequency/ Number of poles</value>
+  </data>
+  <data name="InvoTech" xml:space="preserve">
+    <value>InvoTech</value>
+  </data>
+  <data name="Vol380V50H3" xml:space="preserve">
+    <value>380V/50Hz/3P</value>
+  </data>
+  <data name="Bitzer" xml:space="preserve">
+    <value>Bitzer</value>
+  </data>
+  <data name="CompressorOther" xml:space="preserve">
+    <value>Other compressor</value>
+  </data>
+  <data name="Vol220V50H1" xml:space="preserve">
+    <value>220V/50Hz/1P</value>
+  </data>
+  <data name="Vol220V50H3" xml:space="preserve">
+    <value>220V/50Hz/3P</value>
+  </data>
+  <data name="Vol220V60H1" xml:space="preserve">
+    <value>220V/60Hz/1P</value>
+  </data>
+  <data name="Vol220V60H3" xml:space="preserve">
+    <value>220V/60Hz/3P</value>
+  </data>
+  <data name="Vol380V60H3" xml:space="preserve">
+    <value>380V/60Hz/3P</value>
+  </data>
+  <data name="Vol460V60H3" xml:space="preserve">
+    <value>460V/60Hz/3P</value>
+  </data>
+  <data name="Vol575V60H3" xml:space="preserve">
+    <value>575V/60Hz/3P</value>
+  </data>
+  <data name="VolBitzer200V50H2" xml:space="preserve">
+    <value>200V-Y(2)/50Hz</value>
+  </data>
+  <data name="VolBitzer380V50H6" xml:space="preserve">
+    <value>380V-Y(6)/50Hz</value>
+  </data>
+  <data name="VolBitzer380V60H3" xml:space="preserve">
+    <value>380V-Y(3)/60Hz</value>
+  </data>
+  <data name="VolBitzer400V50H4" xml:space="preserve">
+    <value>400V-Y(4)/50Hz</value>
+  </data>
+  <data name="VolBitzer460V60H4" xml:space="preserve">
+    <value>460V-Y(4)/60Hz</value>
+  </data>
+  <data name="VolBitzer500V50H5" xml:space="preserve">
+    <value>500V-Y(5)/50Hz</value>
+  </data>
+  <data name="VolBitzer575V60H5" xml:space="preserve">
+    <value>575V-Y(5)/60Hz</value>
+  </data>
+  <data name="MAKKBAddAccess" xml:space="preserve">
+    <value>Accessories</value>
+  </data>
+  <data name="Engineer" xml:space="preserve">
+    <value>Engineer</value>
+  </data>
+  <data name="MAKKEngineerStr" xml:space="preserve">
+    <value>Инженер / Engineer:</value>
+  </data>
+  <data name="MAKKApproved" xml:space="preserve">
+    <value>Согласовано / Approved:</value>
+  </data>
+  <data name="MAKKMadeInRussiaEn" xml:space="preserve">
+    <value>Made smart. Made in Russia.</value>
+  </data>
+  <data name="MAKKPage2T1Str10" xml:space="preserve">
+    <value>Реле контроля чередования фаз</value>
+  </data>
+  <data name="MAKKPage2T1Str10En" xml:space="preserve">
+    <value>Phase control relay</value>
+  </data>
+  <data name="MAKKPage2T1Str11" xml:space="preserve">
+    <value>Защитно-коммутационная аппаратура</value>
+  </data>
+  <data name="MAKKPage2T1Str11En" xml:space="preserve">
+    <value>Control and switching equipment</value>
+  </data>
+  <data name="MAKKPage2T1Str12" xml:space="preserve">
+    <value>Сервисные штуцеры</value>
+  </data>
+  <data name="MAKKPage2T1Str12En" xml:space="preserve">
+    <value>Service fittings</value>
+  </data>
+  <data name="MAKKPage2T1Str2" xml:space="preserve">
+    <value>Спиральный компрессор с нагревателем картера</value>
+  </data>
+  <data name="MAKKPage2T1Str2En" xml:space="preserve">
+    <value>Scroll compressor with crankcase heater</value>
+  </data>
+  <data name="MAKKPage2T1Str3" xml:space="preserve">
+    <value>Обратный клапан на нагнетании</value>
+  </data>
+  <data name="MAKKPage2T1Str3En" xml:space="preserve">
+    <value>Check valve on discharge line</value>
+  </data>
+  <data name="MAKKPage2T1Str4" xml:space="preserve">
+    <value>Реле высокого и низкого давления</value>
+  </data>
+  <data name="MAKKPage2T1Str4En" xml:space="preserve">
+    <value>High and low pressure switches</value>
+  </data>
+  <data name="MAKKPage2T1Str5" xml:space="preserve">
+    <value>Трубчато-ребристый конденсатор (медные трубки, алюминиевые ламели)</value>
+  </data>
+  <data name="MAKKPage2T1Str5En" xml:space="preserve">
+    <value>Finned tube condenser (copper tubes, aluminum fins)</value>
+  </data>
+  <data name="MAKKPage2T1Str6" xml:space="preserve">
+    <value>Осевые вентиляторы с тепловой защитой</value>
+  </data>
+  <data name="MAKKPage2T1Str6En" xml:space="preserve">
+    <value>Axial fans with thermal protection</value>
+  </data>
+  <data name="MAKKPage2T1Str7" xml:space="preserve">
+    <value>Запорный вентиль</value>
+  </data>
+  <data name="MAKKPage2T1Str7En" xml:space="preserve">
+    <value>Shut off valve</value>
+  </data>
+  <data name="MAKKPage2T1Str8" xml:space="preserve">
+    <value>Реле давления конденсации</value>
+  </data>
+  <data name="MAKKPage2T1Str8En" xml:space="preserve">
+    <value>Condensing pressure switch</value>
+  </data>
+  <data name="MAKKPage2T1Str9" xml:space="preserve">
+    <value>Шкаф управления</value>
+  </data>
+  <data name="MAKKPage2T1Str9En" xml:space="preserve">
+    <value>Control cabinet</value>
+  </data>
+  <data name="MAKKSerieStr2En" xml:space="preserve">
+    <value> series</value>
+  </data>
+  <data name="MAKKSerieStrEn" xml:space="preserve">
+    <value>Compressor-condenser unit </value>
+  </data>
+  <data name="MAKKUnitComposStr" xml:space="preserve">
+    <value>Состав ККБ </value>
+  </data>
+  <data name="MAKKUnitComposStrEn" xml:space="preserve">
+    <value>Specification of CCU </value>
+  </data>
+  <data name="MAKKAirCooledCondenser" xml:space="preserve">
+    <value>Конденсатор воздушного охлаждения</value>
+  </data>
+  <data name="MAKKAirCooledCondenserEn" xml:space="preserve">
+    <value>Air-cooled condenser</value>
+  </data>
+  <data name="MAKKAirCooledCondenserStr" xml:space="preserve">
+    <value>Конденсатор изготовлен из медных труб и алюминиевых рёбер, обеспечивающих эффективный теплообмен. Большая теплообменная поверхность позволяет эксплуатировать агрегат даже при очень высокой температуре наружного воздуха до +45°С. Конденсатор со специальным гладким оребрением, без просечек, с большим шагом ламелей от 2,5 до 2,0 мм (выше стандартных для европейских норм 1,2 – 1,8 мм) устойчив к длительной работе в тяжелых условиях, легко очищается от загрязнений, устойчив к грязному городскому воздуху. Толщина оребрения 0,12 мм позволяет проводить очистку мойкой высокого давления без риска повреждения ламелей.</value>
+  </data>
+  <data name="MAKKAirCooledCondenserStrEn" xml:space="preserve">
+    <value>Condenser is made of copper tubes and aluminum fins, which guarantee efficient heat exchange. Huge heat exchange surface allows to use unit even at sufficient ambient temperature (up to +45°С). Fins are smooth, the pitch is increased (2,5…2,0 mm) and ready to work in strong conditions, easy to clean from soiling, resistant for dirty air. Fin thickness is 0,12 mm allows to wash the heat exchanger with pressure washer without fins damaging.</value>
+  </data>
+  <data name="MAKKAMOptionStr" xml:space="preserve">
+    <value>Опция АМ (исполнение с низким уровнем шума) / AM option (acoustic version with low noise)</value>
+  </data>
+  <data name="MAKKAvailableOptionsEn" xml:space="preserve">
+    <value>MK option (built-in mounting kit)</value>
+  </data>
+  <data name="MAKKAvailableOptionsEnStr" xml:space="preserve">
+    <value>For reliable operation of the CCU, as well as for more convenient and quick installation of the unit it is recommended to choose option MK-built-in mounting kit, mounted at the factory.</value>
+  </data>
+  <data name="MAKKAvailableOptionsRu" xml:space="preserve">
+    <value>Опция МК (встроенный монтажный комплект)</value>
+  </data>
+  <data name="MAKKAvailableOptionsRuStr" xml:space="preserve">
+    <value>Для надежной работы ККБ, а также для более удобного и быстрого монтажа агрегата рекомендуется опция МК – встроенный монтажный комплект, смонтированный на заводе-изготовителе.</value>
+  </data>
+  <data name="MAKKClimaticVersion" xml:space="preserve">
+    <value>Климатическое исполнение / Climatic version</value>
+  </data>
+  <data name="MAKKCompressor" xml:space="preserve">
+    <value>Компрессор</value>
+  </data>
+  <data name="MAKKCompressorEn" xml:space="preserve">
+    <value>Compressor</value>
+  </data>
+  <data name="MAKKCompressorStr" xml:space="preserve">
+    <value>Высокоэффективные спиральные компрессоры с системой радиального и осевого согласования спиралей, а также системой разгруженного пуска. Обладают низким уровнем шума и внутренней тепловой защитой устанавливаются на резиновых виброопорах. Компрессоры стандартно поставляются с нагревателем картера.</value>
+  </data>
+  <data name="MAKKCompressorStrEn" xml:space="preserve">
+    <value>High efficiency compressors have radial and axial compliance system and with non-load start-up system. Compressors have low noise and thermal protection and rubber anti-vibration dampers. Compressors are provided with a crankcase heater by default.</value>
+  </data>
+  <data name="MAKKControlCabinet" xml:space="preserve">
+    <value>Система автоматики</value>
+  </data>
+  <data name="MAKKControlCabinetEn" xml:space="preserve">
+    <value>Control cabinet</value>
+  </data>
+  <data name="MAKKControlCabinetStr" xml:space="preserve">
+    <value>Релейная система автоматики обеспечивает высокую надежность системы управления, а также простоту эксплуатации и обслуживания.</value>
+  </data>
+  <data name="MAKKControlCabinetStrEn" xml:space="preserve">
+    <value>The control cabinet with relay logic provides high reliability of the control system, as well as ease of operation and maintenance.</value>
+  </data>
+  <data name="MAKKFans" xml:space="preserve">
+    <value>Вентиляторы</value>
+  </data>
+  <data name="MAKKFansEn" xml:space="preserve">
+    <value>Fans</value>
+  </data>
+  <data name="MAKKFansStr" xml:space="preserve">
+    <value>Осевые вентиляторы высокой производительности сбалансированы статически и динамически. Класс защиты IP54. Классы изоляции по нагревостойкости F. Электродвигатели вентиляторов оснащены встроенной тепловой защитой. Конструкция лопастей обеспечивает низкий уровень шума. Каждый вентилятор оборудован защитной решёткой.</value>
+  </data>
+  <data name="MAKKFansStrEn" xml:space="preserve">
+    <value>High efficiency axial fans are balanced statically and dynamically. The protection class is IP54. Insulation heat resistance class is F. Motors have built-in heat protection. Fans have low noise level. Each fan has protection grille.</value>
+  </data>
+  <data name="MAKKHousing" xml:space="preserve">
+    <value>Корпус</value>
+  </data>
+  <data name="MAKKHousingEn" xml:space="preserve">
+    <value>Housing</value>
+  </data>
+  <data name="MAKKHousingStr" xml:space="preserve">
+    <value>Корпус сделан из листовой оцинкованной стали, обладает увеличенной жесткостью. Корпус покрыт порошковой полиэфирной краской, которая обеспечивает высокую коррозионную стойкость. Стандартный цвет корпуса RAL 7035. Компрессор и основные компоненты холодильного агрегата размещаются таким образом, чтобы облегчить работы по техническому обслуживанию и ремонту оборудования.</value>
+  </data>
+  <data name="MAKKHousingStrEn" xml:space="preserve">
+    <value>Housing with an increased rigidity is made of galvanized steel. Housing has polyester powder coating which provides high corrosion resistance. Standard color is RAL 7035. Easy access to important parts of the unit: compressors and other refrigerant circuit elements.</value>
+  </data>
+  <data name="MAKKMKOptionStr" xml:space="preserve">
+    <value>Опция МК (встроенный монтажный комплект) / MK option (built-in mounting kit)</value>
+  </data>
+  <data name="MAKKOptionsRP" xml:space="preserve">
+    <value>Опция РП (регулятор производительности)</value>
+  </data>
+  <data name="MAKKOptionsRPEn" xml:space="preserve">
+    <value>RP option (capacity regulator)</value>
+  </data>
+  <data name="MAKKOptionsRPStr" xml:space="preserve">
+    <value>Опция РП предназначена для защиты испарителя от обмерзания. Позволяет косвенно регулировать холодопроизводительность агрегата. Опция РП представляет собой гидравлический регулятор, который автоматически изменяет расход хладагента через испаритель при изменении тепловой нагрузки. С установленным регулятором производительности при низких тепловых нагрузках на испаритель часть хладагента перепускается мимо испарителя, приводя его мощность в соответствие с требуемой холодопроизводительностью. Только для ККБ с опцией МК.</value>
+  </data>
+  <data name="MAKKOptionsRPStrEn" xml:space="preserve">
+    <value>The RP option is designed to protect the evaporator from freezing. Allows to indirectly adjust the cooling capacity of the unit. The RP option is a hydraulic regulator that automatically changes the refrigerant flow through the evaporator when the heat load changes. With the capacity regulator installed at low thermal loads on the evaporator, part of the refrigerant is passed by the evaporator, changing its power to the required cooling capacity. Only for CCU with MK option.</value>
+  </data>
+  <data name="MAKKOptionsZK" xml:space="preserve">
+    <value>Опция ЗК (зимний комплект)</value>
+  </data>
+  <data name="MAKKOptionsZKEn" xml:space="preserve">
+    <value>Option ZK (low temperature kit)</value>
+  </data>
+  <data name="MAKKOptionsZKStr" xml:space="preserve">
+    <value>Опция ЗК включает в себя дополнительный подогреватель картера, гидравлический регулятор давления конденсации и другую необходимую арматуру. Клапан регулятора давления конденсации настраивается на определенную температуру конденсации (заводская настройка: +35°С). При снижении температуры конденсации ниже установленного значения (в холодный период года), клапан ограничивает расход хладагента через конденсатор. Опция ЗК позволяет эксплуатировать агрегат при температуре наружного воздуха до минус 40°С. Только для ККБ с опцией МК.</value>
+  </data>
+  <data name="MAKKOptionsZKStrEn" xml:space="preserve">
+    <value>The ZK option includes an additional crankcase heater, a hydraulic condensing pressure regulating valve and other necessary fittings. The condensation pressure regulating valve is set to a specific condensation temperature (factory setting: + 35°C). When the condensation temperature drops below the set value (during the cold season), the valve limits the refrigerant flow through the condenser. The ZK option allows the unit to be operated at ambient temperatures up to minus 40°C. Only for CCU with MK option.</value>
+  </data>
+  <data name="MAKKPage2T2Str1" xml:space="preserve">
+    <value>Состав</value>
+  </data>
+  <data name="MAKKPage2T2Str1En" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="MAKKPage2T2Str2" xml:space="preserve">
+    <value>Соленоидный вентиль</value>
+  </data>
+  <data name="MAKKPage2T2Str2En" xml:space="preserve">
+    <value>Solenoid valve</value>
+  </data>
+  <data name="MAKKPage2T2Str3" xml:space="preserve">
+    <value>Фильтр-осушитель неразборный</value>
+  </data>
+  <data name="MAKKPage2T2Str3En" xml:space="preserve">
+    <value>Hermetic filter-drier</value>
+  </data>
+  <data name="MAKKPage2T2Str4" xml:space="preserve">
+    <value>Смотровое стекло</value>
+  </data>
+  <data name="MAKKPage2T2Str4En" xml:space="preserve">
+    <value>Sight glass</value>
+  </data>
+  <data name="MAKKPage2T2Str5" xml:space="preserve">
+    <value>Ресивер жидкого хладагента (с предохранительным клапаном при необходимости)</value>
+  </data>
+  <data name="MAKKPage2T2Str5En" xml:space="preserve">
+    <value>Refrigerant receiver (with safe valve if necessary)</value>
+  </data>
+  <data name="MAKKPage2T3Str2" xml:space="preserve">
+    <value>Регулятор производительности</value>
+  </data>
+  <data name="MAKKPage2T3Str2En" xml:space="preserve">
+    <value>Capacity regulator</value>
+  </data>
+  <data name="MAKKPage2T3Str3" xml:space="preserve">
+    <value>Соленоидный вентиль</value>
+  </data>
+  <data name="MAKKPage2T3Str3En" xml:space="preserve">
+    <value>Solenoid valve</value>
+  </data>
+  <data name="MAKKPage2T3Str4" xml:space="preserve">
+    <value>Реле температуры</value>
+  </data>
+  <data name="MAKKPage2T3Str4En" xml:space="preserve">
+    <value>Thermostat</value>
+  </data>
+  <data name="MAKKPage2T4Str2" xml:space="preserve">
+    <value>Дополнительный нагреватель картера компрессора</value>
+  </data>
+  <data name="MAKKPage2T4Str2En" xml:space="preserve">
+    <value>Additional compressor crankcase heater</value>
+  </data>
+  <data name="MAKKPage2T4Str3" xml:space="preserve">
+    <value>Дифференциальный клапан</value>
+  </data>
+  <data name="MAKKPage2T4Str3En" xml:space="preserve">
+    <value>Differential valve</value>
+  </data>
+  <data name="MAKKPage2T4Str4" xml:space="preserve">
+    <value>Регулятор давления конденсации</value>
+  </data>
+  <data name="MAKKPage2T4Str4En" xml:space="preserve">
+    <value>Condensing pressure regulating valve</value>
+  </data>
+  <data name="MAKKPage2T4Str5" xml:space="preserve">
+    <value>Обратный клапан</value>
+  </data>
+  <data name="MAKKPage2T4Str5En" xml:space="preserve">
+    <value>Check valve</value>
+  </data>
+  <data name="MAKKPage2T5Str2" xml:space="preserve">
+    <value>Дополнительный нагреватель картера компрессора</value>
+  </data>
+  <data name="MAKKPage2T5Str2En" xml:space="preserve">
+    <value>Additional compressor crankcase heater</value>
+  </data>
+  <data name="MAKKPage4T1Str1C1" xml:space="preserve">
+    <value>Стандартные условия хранения и эксплуатации / 
+Standard operating and storage range</value>
+  </data>
+  <data name="MAKKPage4T1Str1C2" xml:space="preserve">
+    <value>Специальные условия эксплуатации / 
+Special operating range, Tamb</value>
+  </data>
+  <data name="MAKKPage4T1Str2C1" xml:space="preserve">
+    <value>Хранение, tо.с. / 
+Storage, tamb</value>
+  </data>
+  <data name="MAKKPage4T1Str2C2" xml:space="preserve">
+    <value>Эксплуатация, tо.с. / 
+Operating range, tamb</value>
+  </data>
+  <data name="MAKKPage4T1Str2C3" xml:space="preserve">
+    <value>Опция ЗК, tо.с. / 
+ZK option, tamb</value>
+  </data>
+  <data name="MAKKPage4T1Str3C1" xml:space="preserve">
+    <value>от/from -40°С до/to +50°С</value>
+  </data>
+  <data name="MAKKPage4T1Str3C2" xml:space="preserve">
+    <value>от/from -5°С до/to +45°С</value>
+  </data>
+  <data name="MAKKPage4T1Str3C3" xml:space="preserve">
+    <value>от/from -40°С до/to +45°С</value>
+  </data>
+  <data name="MAKKRefrigerantCircuit" xml:space="preserve">
+    <value>Холодильный контур</value>
+  </data>
+  <data name="MAKKRefrigerantCircuitEn" xml:space="preserve">
+    <value>Refrigerant circuit</value>
+  </data>
+  <data name="MAKKRefrigerantCircuitStr" xml:space="preserve">
+    <value>По умолчанию холодильный контур включает в себя: предохранительный клапан на стороне высокого давления, предохранительные реле высокого и низкого давления, реле давления конденсации.</value>
+  </data>
+  <data name="MAKKRefrigerantCircuitStrEn" xml:space="preserve">
+    <value>By default, refrigerant circuit includes: safety valve at high pressure side, high and low pressure switches, condensing pressure switch.</value>
+  </data>
+  <data name="MAKKRefrigerantEn" xml:space="preserve">
+    <value>Refrigerant</value>
+  </data>
+  <data name="MAKKRefrigerantStr" xml:space="preserve">
+    <value>Агрегаты работают на энергоэффективном хладагенте R410A. Квазиазеотропная смесь R32 (50%) и R125 (50%). Он не содержит хлора, не наносит вред окружающей среде, не токсичен и не горюч.</value>
+  </data>
+  <data name="MAKKRefrigerantStrEn" xml:space="preserve">
+    <value>Units use energy efficient refrigerant R410A. It is quasi-azeotropic mixture of R32 (50%) and R125 (50%). Doesn’t contain chlorine and does not harm the environment, is non-toxic and non-flammable.</value>
+  </data>
+  <data name="MAKKRefrigerantText" xml:space="preserve">
+    <value>Хладагент</value>
+  </data>
+  <data name="MAKKRPOptionStr" xml:space="preserve">
+    <value>Опция РП (регулятор производительности) / RP option (capacity regulator)</value>
+  </data>
+  <data name="MAKKTesting" xml:space="preserve">
+    <value>Испытания</value>
+  </data>
+  <data name="MAKKTestingEn" xml:space="preserve">
+    <value>Testing</value>
+  </data>
+  <data name="MAKKTestingStr" xml:space="preserve">
+    <value>Перед отгрузкой все агрегаты испытываются на герметичность. В состоянии поставки агрегаты заправлены азотом сухим чистым по ГОСТ 9293-74 (ISO 2435-73).</value>
+  </data>
+  <data name="MAKKTestingStrEn" xml:space="preserve">
+    <value>Before shipment, all units are tested for leaks. In the delivery state, units are filled with nitrogen high purity according to the GOST 9293-74 (ISO 2435-73).</value>
+  </data>
+  <data name="MAKKZKOptionStr" xml:space="preserve">
+    <value>Опция ЗК (зимний комплект до -40°С) / ZK option (low temperature kit till -40°С)</value>
+  </data>
+  <data name="MAKKName" xml:space="preserve">
+    <value>Компрессорно-конденсаторный агрегат </value>
+  </data>
+  <data name="MAKKNameEn" xml:space="preserve">
+    <value>Compressor-condenser unit </value>
+  </data>
+  <data name="MAKKOptionsAM" xml:space="preserve">
+    <value>Опция АМ (малошумное исполнение)</value>
+  </data>
+  <data name="MAKKOptionsAMEn" xml:space="preserve">
+    <value>AM option (acoustic version with low noise)</value>
+  </data>
+  <data name="MAKKOptionsAMStr" xml:space="preserve">
+    <value>Опция АМ заключается в шумоизоляции компрессорного отсека холодильного агрегата. Только для ККБ с опцией МК.</value>
+  </data>
+  <data name="MAKKOptionsAMStrEn" xml:space="preserve">
+    <value>The AM option consists in noise isolation of the compressor compartment of the unit. Only for CCU with MK option.</value>
+  </data>
+  <data name="MAKKPage5T1Str10C1" xml:space="preserve">
+    <value>Количество компрессоров / Quantity of compressors</value>
+  </data>
+  <data name="MAKKPage5T1Str10C2" xml:space="preserve">
+    <value>шт. / pcs</value>
+  </data>
+  <data name="MAKKPage5T1Str10C3" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MAKKPage5T1Str11C1" xml:space="preserve">
+    <value>Ступени регулирования производительности / 
+Part load steps</value>
+  </data>
+  <data name="MAKKPage5T1Str11C2" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="MAKKPage5T1Str11C3" xml:space="preserve">
+    <value>0 / 100</value>
+  </data>
+  <data name="MAKKPage5T1Str12C1" xml:space="preserve">
+    <value>Регулирование производительности плавное (опция РП) / Smooth load control (RP option)</value>
+  </data>
+  <data name="MAKKPage5T1Str12C2" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="MAKKPage5T1Str12C3" xml:space="preserve">
+    <value>60-100</value>
+  </data>
+  <data name="MAKKPage5T1Str13C1" xml:space="preserve">
+    <value>Количество холодильных контуров / 
+Quantity of refrigerant circuits</value>
+  </data>
+  <data name="MAKKPage5T1Str13C2" xml:space="preserve">
+    <value>шт. / pcs</value>
+  </data>
+  <data name="MAKKPage5T1Str13C3" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MAKKPage5T1Str14C1" xml:space="preserve">
+    <value>Конденсатор / Condenser</value>
+  </data>
+  <data name="MAKKPage5T1Str15C1" xml:space="preserve">
+    <value>Тип конденсатора / Condenser type</value>
+  </data>
+  <data name="MAKKPage5T1Str15C3" xml:space="preserve">
+    <value>Трубчато-ребристый встроенный / Finned tube built-in</value>
+  </data>
+  <data name="MAKKPage5T1Str16C1" xml:space="preserve">
+    <value>Количество теплообменников / 
+Quantity of condensers</value>
+  </data>
+  <data name="MAKKPage5T1Str16C2" xml:space="preserve">
+    <value>шт. / pcs</value>
+  </data>
+  <data name="MAKKPage5T1Str16C3" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MAKKPage5T1Str17C1" xml:space="preserve">
+    <value>Суммарный объем конденсаторов (хладагент) / Total volume of condensers (refrigerant)</value>
+  </data>
+  <data name="MAKKPage5T1Str17C2" xml:space="preserve">
+    <value>л / l</value>
+  </data>
+  <data name="MAKKPage5T1Str17C3" xml:space="preserve">
+    <value>3,1</value>
+  </data>
+  <data name="MAKKPage5T1Str18C1" xml:space="preserve">
+    <value>Вентиляторы / Fans</value>
+  </data>
+  <data name="MAKKPage5T1Str19C1" xml:space="preserve">
+    <value>Тип вентиляторов / Fan type</value>
+  </data>
+  <data name="MAKKPage5T1Str19C3" xml:space="preserve">
+    <value>Осевые / Axial</value>
+  </data>
+  <data name="MAKKPage5T1Str1C1" xml:space="preserve">
+    <value>Параметр / Parameter</value>
+  </data>
+  <data name="MAKKPage5T1Str1C3" xml:space="preserve">
+    <value>Значение / Value</value>
+  </data>
+  <data name="MAKKPage5T1Str20C1" xml:space="preserve">
+    <value>Количество вентиляторов / Quantity of fans</value>
+  </data>
+  <data name="MAKKPage5T1Str20C2" xml:space="preserve">
+    <value>шт. / pcs</value>
+  </data>
+  <data name="MAKKPage5T1Str20C3" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MAKKPage5T1Str21C1" xml:space="preserve">
+    <value>Ресивер (для МАКК с опцией МК) / Receiver (only for MK version)</value>
+  </data>
+  <data name="MAKKPage5T1Str22C1" xml:space="preserve">
+    <value>Суммарный объем ресиверов (хладагент) / 
+Total volume of receivers (refrigerant)</value>
+  </data>
+  <data name="MAKKPage5T1Str22C2" xml:space="preserve">
+    <value>дм³ / dm³</value>
+  </data>
+  <data name="MAKKPage5T1Str22C3" xml:space="preserve">
+    <value>6,3</value>
+  </data>
+  <data name="MAKKPage5T1Str23C1" xml:space="preserve">
+    <value>Электропитание / Power supply</value>
+  </data>
+  <data name="MAKKPage5T1Str24C1" xml:space="preserve">
+    <value>Параметры электропитания / Power supply</value>
+  </data>
+  <data name="MAKKPage5T1Str24C2" xml:space="preserve">
+    <value>φ/Гц/В</value>
+  </data>
+  <data name="MAKKPage5T1Str24C3" xml:space="preserve">
+    <value>3 ~50 Гц 400В+N+РЕ / 
+3 ~50 Hz 400V+N+РЕ</value>
+  </data>
+  <data name="MAKKPage5T1Str25C1" xml:space="preserve">
+    <value>Общая потребляемая мощность / 
+Total absorbed power</value>
+  </data>
+  <data name="MAKKPage5T1Str25C2" xml:space="preserve">
+    <value>кВт / kW</value>
+  </data>
+  <data name="MAKKPage5T1Str25C3" xml:space="preserve">
+    <value>3,7</value>
+  </data>
+  <data name="MAKKPage5T1Str26C1" xml:space="preserve">
+    <value>Рабочий ток / Total operating current</value>
+  </data>
+  <data name="MAKKPage5T1Str26C2" xml:space="preserve">
+    <value>А</value>
+  </data>
+  <data name="MAKKPage5T1Str26C3" xml:space="preserve">
+    <value>7,4</value>
+  </data>
+  <data name="MAKKPage5T1Str2C1" xml:space="preserve">
+    <value>Общие технические характеристики / General technical data</value>
+  </data>
+  <data name="MAKKPage5T1Str3C1" xml:space="preserve">
+    <value>Холодопроизводительность / Cooling capacity</value>
+  </data>
+  <data name="MAKKPage5T1Str3C2" xml:space="preserve">
+    <value>кВт / kW</value>
+  </data>
+  <data name="MAKKPage5T1Str4C1" xml:space="preserve">
+    <value>Энергетическая эффективность EER</value>
+  </data>
+  <data name="MAKKPage5T1Str5C1" xml:space="preserve">
+    <value>Хладагент / Refrigerant</value>
+  </data>
+  <data name="MAKKPage5T1Str5C3" xml:space="preserve">
+    <value>R410A</value>
+  </data>
+  <data name="MAKKPage5T1Str6C1" xml:space="preserve">
+    <value>Температура конденсации / Condensating temperature</value>
+  </data>
+  <data name="MAKKPage5T1Str6C2" xml:space="preserve">
+    <value>°С</value>
+  </data>
+  <data name="MAKKPage5T1Str6C3" xml:space="preserve">
+    <value>+50</value>
+  </data>
+  <data name="MAKKPage5T1Str7C1" xml:space="preserve">
+    <value>Температура кипения / Evaporating temperature</value>
+  </data>
+  <data name="MAKKPage5T1Str7C2" xml:space="preserve">
+    <value>°С</value>
+  </data>
+  <data name="MAKKPage5T1Str7C3" xml:space="preserve">
+    <value>+8</value>
+  </data>
+  <data name="MAKKPage5T1Str8C1" xml:space="preserve">
+    <value>Компрессоры / Compressors</value>
+  </data>
+  <data name="MAKKPage5T1Str9C1" xml:space="preserve">
+    <value>Тип компрессора / Compressor type</value>
+  </data>
+  <data name="MAKKPage5T1Str9C3" xml:space="preserve">
+    <value>Спиральный герметичный / Hermetic scroll</value>
+  </data>
+  <data name="MAKKPage6T1Str10C1" xml:space="preserve">
+    <value>Высота / Height</value>
+  </data>
+  <data name="MAKKPage6T1Str10C2" xml:space="preserve">
+    <value>мм / mm</value>
+  </data>
+  <data name="MAKKPage6T1Str10C3" xml:space="preserve">
+    <value>1 383</value>
+  </data>
+  <data name="MAKKPage6T1Str11C1" xml:space="preserve">
+    <value>Масса / Weight ¹</value>
+  </data>
+  <data name="MAKKPage6T1Str12C1" xml:space="preserve">
+    <value>Транспортировочная масса / Shipping weight</value>
+  </data>
+  <data name="MAKKPage6T1Str12C2" xml:space="preserve">
+    <value>кг / kg</value>
+  </data>
+  <data name="MAKKPage6T1Str12C3" xml:space="preserve">
+    <value>165</value>
+  </data>
+  <data name="MAKKPage6T1Str13C1" xml:space="preserve">
+    <value>Эксплуатационная масса / Operating weight</value>
+  </data>
+  <data name="MAKKPage6T1Str13C2" xml:space="preserve">
+    <value>кг / kg</value>
+  </data>
+  <data name="MAKKPage6T1Str13C3" xml:space="preserve">
+    <value>180</value>
+  </data>
+  <data name="MAKKPage6T1Str14C1" xml:space="preserve">
+    <value>Акустические характеристики / Acoustics ²</value>
+  </data>
+  <data name="MAKKPage6T1Str15C1" xml:space="preserve">
+    <value>Уровень звукового давления на расстоянии 10 м / Sound pressure level at a distance of 10 m</value>
+  </data>
+  <data name="MAKKPage6T1Str15C2" xml:space="preserve">
+    <value>дБ(А) / dB(A)</value>
+  </data>
+  <data name="MAKKPage6T1Str15C3" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="MAKKPage6T1Str1C1" xml:space="preserve">
+    <value>Максимальный рабочий ток / 
+Maximum operating current</value>
+  </data>
+  <data name="MAKKPage6T1Str1C2" xml:space="preserve">
+    <value>А</value>
+  </data>
+  <data name="MAKKPage6T1Str1C3" xml:space="preserve">
+    <value>11,4</value>
+  </data>
+  <data name="MAKKPage6T1Str2C1" xml:space="preserve">
+    <value>Пусковой ток / L.R.A.</value>
+  </data>
+  <data name="MAKKPage6T1Str2C2" xml:space="preserve">
+    <value>А</value>
+  </data>
+  <data name="MAKKPage6T1Str2C3" xml:space="preserve">
+    <value>64,0</value>
+  </data>
+  <data name="MAKKPage6T1Str3C1" xml:space="preserve">
+    <value>Подключение хладагента / Refrigerant connections</value>
+  </data>
+  <data name="MAKKPage6T1Str4C1" xml:space="preserve">
+    <value>Тип соединения / Connection type</value>
+  </data>
+  <data name="MAKKPage6T1Str4C3" xml:space="preserve">
+    <value>Под пайку / Brazing</value>
+  </data>
+  <data name="MAKKPage6T1Str5C1" xml:space="preserve">
+    <value>Диаметр жидкостной трубы / Liquid tube diameter</value>
+  </data>
+  <data name="MAKKPage6T1Str5C2" xml:space="preserve">
+    <value>дюйм / inch</value>
+  </data>
+  <data name="MAKKPage6T1Str5C3" xml:space="preserve">
+    <value>1/2"</value>
+  </data>
+  <data name="MAKKPage6T1Str6C1" xml:space="preserve">
+    <value>Диаметр газовой трубы / Gas tube diameter</value>
+  </data>
+  <data name="MAKKPage6T1Str6C2" xml:space="preserve">
+    <value>дюйм / inch</value>
+  </data>
+  <data name="MAKKPage6T1Str6C3" xml:space="preserve">
+    <value>5/8"</value>
+  </data>
+  <data name="MAKKPage6T1Str7C1" xml:space="preserve">
+    <value>Габаритные размеры / Dimensions</value>
+  </data>
+  <data name="MAKKPage6T1Str8C1" xml:space="preserve">
+    <value>Длина / Length</value>
+  </data>
+  <data name="MAKKPage6T1Str8C2" xml:space="preserve">
+    <value>мм / mm</value>
+  </data>
+  <data name="MAKKPage6T1Str8C3" xml:space="preserve">
+    <value>1 155</value>
+  </data>
+  <data name="MAKKPage6T1Str9C1" xml:space="preserve">
+    <value>Ширина / Width</value>
+  </data>
+  <data name="MAKKPage6T1Str9C2" xml:space="preserve">
+    <value>мм / mm</value>
+  </data>
+  <data name="MAKKPage6T1Str9C3" xml:space="preserve">
+    <value>455</value>
+  </data>
+  <data name="MAKKSound" xml:space="preserve">
+    <value>² Значения уровней звукового давления в соответствии со стандартом ISO 3744. / Sound pressure level values according to ISO 3744.</value>
+  </data>
+  <data name="MAKKTechnicalOffer" xml:space="preserve">
+    <value>Предложение / Technical Offer</value>
+  </data>
+  <data name="MAKKTechnicalOfferStr" xml:space="preserve">
+    <value>Компания ООО "ВЕЗА" предлагает к поставке следующие товары:
+VEZA LLC offers to deliver the following goods:</value>
+  </data>
+  <data name="MAKKWithoutOptions" xml:space="preserve">
+    <value>¹ Без учета опций. / Without options.</value>
+  </data>
+  <data name="MAKKAddEquipKIV" xml:space="preserve">
+    <value>КИВ-41, комплект виброизоляторов / 
+KIV-41, anti-vibration dampers kit</value>
+  </data>
+  <data name="MAKKAddEquipMOK" xml:space="preserve">
+    <value>МОК-МАКК - Монтажный отдельный комплект для МАКК /
+MOK-MAKK - Separate mounting kit for MAKK</value>
+  </data>
+  <data name="MAKKAddEquipREC" xml:space="preserve">
+    <value>РЕС-МАКК - Ресивер для МАКК /
+RES-MAKK - Reciever kit for MAKK</value>
+  </data>
+  <data name="MAKKAMOptionStrBlank" xml:space="preserve">
+    <value>АМ – Малошумное исполнение / 
+AM ­– Acoustic version with low noise</value>
+  </data>
+  <data name="MAKKDescriptionEn" xml:space="preserve">
+    <value>compressor-condenser unit</value>
+  </data>
+  <data name="MAKKMKOptionStrBlank" xml:space="preserve">
+    <value>МК – Встроенный монтажный комплект / 
+MK – Built-in mounting kit</value>
+  </data>
+  <data name="MAKKRPOptionStrBlank" xml:space="preserve">
+    <value>РП – Регулятор производительности / 
+RP – Capacity regulator</value>
+  </data>
+  <data name="MAKKSpecRequre" xml:space="preserve">
+    <value>Специальные требования / Special requirements</value>
+  </data>
+  <data name="MAKKSpecRequreStr" xml:space="preserve">
+    <value>    1. Шаровые вентили на жидкостной линии, всасывании и нагнетании. 
+    2. На корпусе предусмотреть штуцер предохранительного клапана для подсоединения трубы выброса хладагента наружу. 
+    3. Клеммные коробки с кабельными сальниками из никелированной латуни.</value>
+  </data>
+  <data name="MAKKZKOptionStrBlank" xml:space="preserve">
+    <value>ЗК – Зимний комплект до -40°С / 
+ZK ­– Low temperature kit up to -40°С</value>
+  </data>
+  <data name="bAssembleEquipment" xml:space="preserve">
+    <value>Assemble the equipment</value>
+  </data>
+  <data name="SelectedCompressor" xml:space="preserve">
+    <value>Selected compressor</value>
+  </data>
+  <data name="ReCalcTO" xml:space="preserve">
+    <value>Recalculate the heat exchanger to the selected compressor</value>
+  </data>
+  <data name="MAKKSeria310List" xml:space="preserve">
+    <value>MAKK 310 Qx: 6-21 kW</value>
+  </data>
+  <data name="MAKKSpecRequreClient" xml:space="preserve">
+    <value>Special requirements</value>
+  </data>
+  <data name="NumberOfFans" xml:space="preserve">
+    <value>Number of fans</value>
+  </data>
+  <data name="GasTubeDiameter" xml:space="preserve">
+    <value>Gas tube diameter</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="LiquidTubeDiameter" xml:space="preserve">
+    <value>Liquid tube diameter</value>
+  </data>
+  <data name="LRA" xml:space="preserve">
+    <value>L.R.A.</value>
+  </data>
+  <data name="MaximumOperatingCurrent" xml:space="preserve">
+    <value>Maximum operating current</value>
+  </data>
+  <data name="OperatingWeight" xml:space="preserve">
+    <value>Operating weight</value>
+  </data>
+  <data name="ShippingWeight" xml:space="preserve">
+    <value>Shipping weight</value>
+  </data>
+  <data name="SoundPressure" xml:space="preserve">
+    <value>Sound pressure level at a distance of 10 m</value>
+  </data>
+  <data name="TotalAbsorbedPower" xml:space="preserve">
+    <value>Total absorbed power</value>
+  </data>
+  <data name="TotalOperatingCurrent" xml:space="preserve">
+    <value>Total operating current</value>
+  </data>
+  <data name="TotalVolumeReceivers" xml:space="preserve">
+    <value>Total volume of receivers (refrigerant)</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Select8Path" xml:space="preserve">
+    <value>\Select8</value>
+  </data>
+  <data name="Select8PathDll" xml:space="preserve">
+    <value>\Select8\SelectDesktop.dll</value>
+  </data>
+  <data name="Select8" xml:space="preserve">
+    <value>COPELAND</value>
+  </data>
+  <data name="TableOutColumn_52" xml:space="preserve">
+    <value>Subcooling, K</value>
+  </data>
+  <data name="TableOutColumn_53" xml:space="preserve">
+    <value>Overheating, K</value>
+  </data>
+  <data name="pipe7_0.40Cu" xml:space="preserve">
+    <value>7.0 x 0.40 mm Copper</value>
+  </data>
+  <data name="TipologyAxialMonophaseRu" xml:space="preserve">
+    <value>Осевые однофазные</value>
+  </data>
+  <data name="TipologyAxialTriphaseRu" xml:space="preserve">
+    <value>Осевые трёхфазные</value>
+  </data>
+  <data name="TipologyCentriphugalRu" xml:space="preserve">
+    <value>Центробежные</value>
+  </data>
+  <data name="TipologyDirectlyCoupledRu" xml:space="preserve">
+    <value>Компактные</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="SetSelectCondTemp" xml:space="preserve">
+    <value>SetSelectCondTemp</value>
+  </data>
+  <data name="SetSelectEvapTemp" xml:space="preserve">
+    <value>SetSelectEvapTemp</value>
+  </data>
+  <data name="SetSelectSubCooling" xml:space="preserve">
+    <value>SetSelectSubCooling</value>
+  </data>
+  <data name="SetSelectSuctOvrheat" xml:space="preserve">
+    <value>SetSelectSuctOvrheat</value>
+  </data>
+  <data name="ValidErrorException" xml:space="preserve">
+    <value>ValidErrorException</value>
+  </data>
+  <data name="MAKKSeria320List" xml:space="preserve">
+    <value>MAKK 320 Qx: 30-95 kW</value>
+  </data>
+  <data name="MAKKSeria330List" xml:space="preserve">
+    <value>MAKK 330 Qx: 120-750 kW</value>
+  </data>
+</root>
